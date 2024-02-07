@@ -33,7 +33,7 @@ const Translator = () => {
     }, [scriptInjected]);
 
     return (
-        <div id="google_translate_element" style={{ height: "50px", width: "110px"}}></div>
+        <div id="google_translate_element" style={{ height: "40px",overflow:"hidden", borderRadius:"5px", padding:"0 20px"}}></div>
     );
 };
 

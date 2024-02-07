@@ -24,7 +24,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 const PdfViewer = ({selectedPdf}) => {
     const [numPages, setNumPages] = useState(null);
     const [pageNumber, setPageNumber] = useState(1);
-    const [scale, setScale] = useState(1.0); // Initial scale
+    const [scale, setScale] = useState(0.7); // Initial scale
 
     const onDocumentLoadSuccess = ({numPages}) => {
         setNumPages(numPages);
@@ -46,8 +46,8 @@ const PdfViewer = ({selectedPdf}) => {
         setScale(scale - 0.1);
     };
     return (
-        <div className="flex flex-col items-center justify-center space-y-4">
-            <div className="flex space-x-4">
+        <div className="flex flex-col items-center justify-center">
+            <div className="flex space-x-4 sticky top-0 z-10 bg-white w-full flex justify-center">
                 <button onClick={zoomIn}
                         className="bg-gray-200 hover:bg-gray-300 flex flex-col justify-center rounded-md items-center p-2">
                     <TbZoomInFilled className="w-6 h-6"/>
@@ -82,6 +82,7 @@ const PdfViewer = ({selectedPdf}) => {
 const Team = () => {
     const [modalIsOpen, setIsOpen] = useState(false);
     const [selectedPdf, setSelectedPdf] = useState(null);
+    const [isMobileView, setIsMobileView] = useState(false);
 
     const openModal = (pdf) => {
         setSelectedPdf(pdf);
@@ -140,6 +141,22 @@ const Team = () => {
             'pdfjs-dist/build/pdf.worker.min.js',
             import.meta.url,
         ).toString();
+    }, []);
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobileView(window.innerWidth <= 768); // Check if screen width is less than or equal to 768 pixels
+        };
+
+        // Set initial mobile view state
+        handleResize();
+
+        // Add event listener for window resize
+        window.addEventListener('resize', handleResize);
+
+        // Cleanup function
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
     }, []);
 
     return (
@@ -252,18 +269,22 @@ const Team = () => {
                         bottom: 'auto',
                         marginRight: '-50%',
                         transform: 'translate(-50%, -50%)',
-                        width: '60%',
-                        maxWidth: '60%', // Decrease max width to 80%
+                        width: isMobileView ? '100%' : '60%', // Set width to 100% on mobile devices, 60% on larger screens
+                        maxWidth: isMobileView ? '100%' : '60%', // Decrease max width to 80%
                         maxHeight: '90%', // Limit max height to prevent overflow
                         padding: '20px',
                         borderRadius: '4px',
                         boxShadow: '0 4px 8px rgba(0,0,0,0.2)', // Add a box shadow for depth
                         fontSize: '18px', // Increase font size
-                        lineHeight: '1.5' // Increase line height for better readability
+                        lineHeight: '1.5', // Increase line height for better readability
+                        '@media (max-width: 768px)': {
+                            width: '100%', // Set width to 100% for screens up to 768px wide (typically mobile devices)
+                            maxWidth: '100%' // Ensure max width is also set to 100%
+                        }
                     }
                 }}
             >
-                <div className={"w-full flex justify-end"}>
+                <div className={"w-full flex justify-end sticky top-0 z-20"}>
                     <button onClick={closeModal}><GiCancel className="w-6 h-6"/></button>
                 </div>
                 <PdfViewer selectedPdf={selectedPdf}/>

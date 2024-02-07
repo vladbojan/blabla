@@ -1,10 +1,75 @@
-import React from 'react';
+"use client"
+import React, {useState} from 'react';
 import {BsFillPlayCircleFill} from "react-icons/bs";
 import {MdOutlineCallEnd} from "react-icons/md";
+import Modal from 'react-modal';
+import {GiCancel} from "react-icons/gi";
+
+
+const VideoModal = ({isOpen, onClose}) => {
+    // YouTube video ID
+    const videoId = 'pWOv9xcoMeY?si=jigNnHAd0jAIc4-t';
+
+    return (<Modal
+        isOpen={isOpen}
+        onRequestClose={onClose}
+        contentLabel="Video Modal"
+        ariaHideApp={false}
+        style={{
+            overlay: {
+                backgroundColor: 'rgba(0,0,0,0.5)',
+                zIndex: '40',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center'
+            }, content: {
+                top: '50%',
+                left: '50%',
+                right: 'auto',
+                bottom: 'auto',
+                marginRight: '-50%',
+                transform: 'translate(-50%, -50%)',
+                width: '80%',
+                maxWidth: '80%',
+                maxHeight: '100%',
+                borderRadius: '4px',
+                boxShadow: '0 4px 8px rgba(0,0,0,0.2)',
+                padding: 0, // Remove padding
+            }
+        }}
+    >
+        <div
+            className="relative"
+            style={{
+                width: '100%', // Ensure full width
+                height: '0', paddingBottom: '56.25%', // Aspect ratio 16:9 for video container
+                overflow: 'hidden', // Hide any overflow
+            }}
+        >
+            <iframe
+                title="YouTube Video"
+                className="absolute top-0 left-0 w-full h-full"
+                src={`https://www.youtube.com/embed/${videoId}?controls=1`}
+                frameBorder="0"
+                allowFullScreen
+                style={{width: '100%', height: '100%'}} // Adjust iframe size here
+            />
+        </div>
+
+    </Modal>);
+};
 
 const Hero = () => {
+    const [videoModalOpen, setVideoModalOpen] = useState(false);
+    const openVideoModal = () => {
+        setVideoModalOpen(true);
+    };
+
+    const closeVideoModal = () => {
+        setVideoModalOpen(false);
+    };
     return (<>
-        <div className="pt-4 md:py-6 m-auto px-6 md:px-4 container px-6">
+        <div className="pt-4 md:py-6 m-auto px-6 md:px-4 container px-6" id={"home"}>
             <div
                 aria-hidden="true"
                 className="absolute inset-0 my-auto w-96 h-32 rotate-45 bg-gradient-to-r from-primaryLight to-secondaryLight blur-3xl opacity-50 dark:opacity-20"
@@ -24,21 +89,31 @@ const Hero = () => {
                         the success of every project we undertake.</p>
                     <div className="flex flex-col items-center space-y-8 md:space-y-0 md:flex-row md:space-x-8 mt-16">
                         <button
-                            className="relative flex h-14 w-52 items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-sky-50 before:border before:border-sky-500 dark:before:border-gray-600 dark:before:bg-gray-700 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95">
-          <span
-              className="relative text-base flex items-center justify-evenly font-semibold text-sky-600 dark:text-white">
-            <span className={"text-blue-400"}>Watch Demo</span>
-              <span className={"ms-3"}> <BsFillPlayCircleFill color={"#007cff"}
-                                                              style={{width: "25px", height: "25px"}}/></span>
+                            className="relative flex h-14 w-52 items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-sky-50 before:border before:border-sky-500 dark:before:border-gray-600 dark:before:bg-gray-700 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95"
+                            onClick={openVideoModal}
+                        >
+        <span
+            className="relative text-base flex items-center justify-evenly font-semibold text-sky-600 dark:text-white">
+          <span className="text-blue-400">Watch Demo</span>
+          <span className="ms-3">
+            <BsFillPlayCircleFill color="#007cff" style={{width: '25px', height: '25px'}}/>
           </span>
+        </span>
                         </button>
+
+                        <VideoModal isOpen={videoModalOpen} onClose={closeVideoModal}/>
                         <button
-                            className="relative  h-14 w-52 items-center justify-center px-6 bg-blue-400 rounded-full ">
-          <span className="relative text-base flex items-center justify-evenly font-semibold text-white">
-            <span>Book a Call</span>
-              <span><MdOutlineCallEnd color={"white"} style={{width: "25px", height: "25px"}}/></span>
-          </span>
+                            className="relative h-14 w-52 items-center justify-center px-6 bg-blue-400 rounded-full"
+                            onClick={() => {
+                                window.location.href = 'mailto:vlad.bojan@jds-europe.com';
+                            }}
+                        >
+  <span className="relative text-base flex items-center justify-evenly font-semibold text-white">
+    <span>Book a Call</span>
+    <span><MdOutlineCallEnd color={"white"} style={{width: "25px", height: "25px"}}/></span>
+  </span>
                         </button>
+
                     </div>
 
                     <div className="mt-16 flex gap-6 lg:gap-12 justify-between grayscale dark:grayscale-0">

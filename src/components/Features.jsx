@@ -3,7 +3,7 @@ import React from 'react';
 const Features = () => {
     return (
         <>
-            <div className="py-16">
+            <div className="py-16" id={"features"}>
                 <div className="xl:container m-auto px-6 text-gray-600 md:px-12 xl:px-16">
                     <div className="lg:bg-gray-50 dark:lg:bg-darker lg:p-16 rounded-[4rem] space-y-6 md:flex flex-row-reverse md:gap-6 justify-center md:space-y-0 lg:items-center">
                         <div className="md:5/12 lg:w-1/2">

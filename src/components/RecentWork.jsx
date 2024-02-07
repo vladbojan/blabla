@@ -4,32 +4,32 @@ const RecentWork = () => {
     // Array of objects containing data for each recent work
     const recentWorksData = [
         {
-            imageUrl: 'assets/projects/img.png',
+            imageUrl: 'assets/projects/romania.png',
             title: 'Web Design',
             description: 'Short description for the ones who look for something new. Awesome!'
         },
         {
-            imageUrl: 'assets/projects/img.png',
+            imageUrl: 'assets/projects/romania.png',
             title: 'Web Design',
             description: 'Short description for the ones who look for something new. Awesome!'
         },
         {
-            imageUrl: 'assets/projects/img.png',
+            imageUrl: 'assets/projects/romania.png',
             title: 'Web Design',
             description: 'Short description for the ones who look for something new. Awesome!'
         },
         {
-            imageUrl: 'assets/projects/img.png',
+            imageUrl: 'assets/projects/romania.png',
             title: 'Web Design',
             description: 'Short description for the ones who look for something new. Awesome!'
         },
         {
-            imageUrl: 'assets/projects/img.png',
+            imageUrl: 'assets/projects/romania.png',
             title: 'Web Design',
             description: 'Short description for the ones who look for something new. Awesome!'
         },
         {
-            imageUrl: 'assets/projects/img.png',
+            imageUrl: 'assets/projects/romania.png',
             title: 'Web Design',
             description: 'Short description for the ones who look for something new. Awesome!'
         }
@@ -37,7 +37,7 @@ const RecentWork = () => {
 
     return (
         <>
-            <div className="py-12">
+            <div className="py-12" id={"portfolio"}>
                 <div className="xl:container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
                     <div className="mb-12 space-y-2 text-center">
                         <h2 className="text-3xl font-bold text-gray-800 md:text-4xl dark:text-white">Recent Works</h2>

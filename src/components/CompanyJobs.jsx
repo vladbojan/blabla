@@ -43,7 +43,7 @@ const CompanyJobs = () => {
 
     return (
         <>
-            <div className="relative py-16">
+            <div className="relative py-16" id={"about"}>
                 <div className="mb-12 space-y-2 text-center">
                     <h2 className="text-3xl font-bold text-gray-800 md:text-4xl dark:text-white">Services</h2>
                     <p className="lg:mx-auto lg:w-6/12 text-gray-600 dark:text-gray-300">

@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from "next/link";
 
 const Footer = () => {
     return (
@@ -6,30 +7,33 @@ const Footer = () => {
             <footer className="w-full bg-gray-100 dark:bg-gray-900 py-16">
                 <div className="md:px-12 lg:px-28">
                     <div className="container m-auto space-y-6 text-gray-600 dark:text-gray-300">
-                        <img src="/assets/logo.png" alt="logo tailus" className="m-auto w-24" />
+                        <Link href={"/"}>
+                        <img src="/assets/logo.png" alt="Vlad" className="m-auto w-24" />
+                        </Link>
                         <ul
                             role="list"
                             className="flex flex-col items-center justify-center gap-4 py-4 sm:flex-row sm:gap-8"
                         >
                             <li role="listitem">
-                                <a href="#" className="hover:text-primary">
-                                    Home
-                                </a>
+                                <a href="#" className="text-black hover:text-gray-300">Home</a>
                             </li>
                             <li role="listitem">
-                                <a href="#" className="hover:text-primary">
-                                    Features
-                                </a>
+                                <a href="#" className="text-black hover:text-gray-300">Features</a>
                             </li>
                             <li role="listitem">
-                                <a href="#" className="hover:text-primary">
-                                    Get started
-                                </a>
+                                <a href="#" className="text-black hover:text-gray-300">About</a>
                             </li>
                             <li role="listitem">
-                                <a href="#" className="hover:text-primary">
-                                    About us
-                                </a>
+                                <a href="#" className="text-black hover:text-gray-300">Portfolio</a>
+                            </li>
+                            <li role="listitem">
+                                <a href="#" className="text-black hover:text-gray-300">Pricing</a>
+                            </li>
+                            <li role="listitem">
+                                <a href="#" className="text-black hover:text-gray-300">Team</a>
+                            </li>
+                            <li role="listitem">
+                                <a href="#" className="text-black hover:text-gray-300">Contact Us</a>
                             </li>
                         </ul>
                         <div className="m-auto flex w-max items-center justify-between space-x-4">
@@ -79,7 +83,7 @@ const Footer = () => {
                         </div>
                         <div className="text-center">
         <span className="text-sm tracking-wide">
-          Copyright © tailus <span id="year" /> | All right reserved
+          Copyright © Vlad <span id="year" /> | All right reserved
         </span>
                         </div>
                     </div>

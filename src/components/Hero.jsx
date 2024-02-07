@@ -143,7 +143,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className="overflow-hidden w-full lg:w-7/12 lg:-mr-16"
-                     data-aos="fade-left"
+                     data-aos="fade-down"
                      data-aos-offset="400"
                      data-aos-easing="ease-in-out">
                     <img

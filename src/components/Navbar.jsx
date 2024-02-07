@@ -32,7 +32,6 @@ const Navbar = () => {
                 <div className="hidden md:flex space-x-8 " style={{fontSize:"16px"}}>
                     <button onClick={() => scrollToSection('home')} className="text-gray-900 hover:text-blue-400">Home</button>
                     <button onClick={() => scrollToSection('features')} className="text-gray-900 hover:text-blue-400">Features</button>
-                    <button onClick={() => scrollToSection('about')} className="text-gray-900 hover:text-blue-400">About</button>
                     <button onClick={() => scrollToSection('portfolio')} className="text-gray-900 hover:text-blue-400">Portfolio</button>
                     <button onClick={() => scrollToSection('team')} className="text-gray-900 hover:text-blue-400">Team</button>
                     <button onClick={() => scrollToSection('pricing')} className="text-gray-900 hover:text-blue-400">Pricing</button>
@@ -53,7 +52,6 @@ const Navbar = () => {
                 <div className={`${isOpen ? 'block' : 'hidden'} md:hidden absolute flex flex-col justify-evenly item-eveny top-16 right-0 h-80 w-6/12 bg-[#f2f2f1] p-4 rounded-lg shadow-lg`}>
                     <button onClick={() => scrollToSection('home')} className="text-gray-900 hover:text-blue-400">Home</button>
                     <button onClick={() => scrollToSection('features')} className="text-gray-900 hover:text-blue-400">Features</button>
-                    <button onClick={() => scrollToSection('about')} className="text-gray-900 hover:text-blue-400">About</button>
                     <button onClick={() => scrollToSection('portfolio')} className="text-gray-900 hover:text-blue-400">Portfolio</button>
                     <button onClick={() => scrollToSection('team')} className="text-gray-900 hover:text-blue-400">Team</button>
                     <button onClick={() => scrollToSection('pricing')} className="text-gray-900 hover:text-blue-400">Pricing</button>

@@ -30,9 +30,6 @@ const Footer = () => {
                                 <button onClick={() => scrollToSection('features')} className="text-gray-900 hover:text-blue-400">Features</button>
                             </li>
                             <li role="listitem">
-                                <button onClick={() => scrollToSection('about')} className="text-gray-900 hover:text-blue-400">About</button>
-                            </li>
-                            <li role="listitem">
                                 <button onClick={() => scrollToSection('portfolio')} className="text-gray-900 hover:text-blue-400">Portfolio</button>
                             </li>
                             <li role="listitem">

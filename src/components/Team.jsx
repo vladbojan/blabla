@@ -164,7 +164,7 @@ const Team = () => {
             <div className="py-20" id={"team"}>
                 <div className="container mx-auto px-6 text-center md:px-12">
                     <div className="mb-16"
-                         data-aos="fade-left"
+                         data-aos="fade-down"
                          data-aos-offset="200"
                          data-aos-easing="ease-in-out"
                     >

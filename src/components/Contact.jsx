@@ -57,7 +57,7 @@ const Contact = () => {
                             <div className="mt-8 md:mt-0 md:w-1/3 lg:w-1/4">
                                 <div className=" flex flex-col px-4  space-y-8">
                                     <div className="flex items-center shadow-md rounded-md bg-gray-100 hover:bg-blue-500 hover:text-white hover:bg-blue-500 hover:text-white py-5"
-                                         data-aos="fade-left"
+                                         data-aos="fade-down"
                                          data-aos-offset="200"
                                          data-aos-easing="ease-in-out">
                                         <i className="lni lni-phone text-gray-400"></i>
@@ -67,7 +67,7 @@ const Contact = () => {
                                         </div>
                                     </div>
                                     <div className="flex items-center shadow-md rounded-md bg-gray-100 hover:bg-blue-500 hover:text-white py-5"
-                                         data-aos="fade-left"
+                                         data-aos="fade-down"
                                          data-aos-offset="220"
                                          data-aos-easing="ease-in-out">
                                         <i className="lni lni-envelope text-gray-400"></i>
@@ -77,7 +77,7 @@ const Contact = () => {
                                         </div>
                                     </div>
                                     <div className="flex items-center shadow-md rounded-md bg-gray-100 hover:bg-blue-500 hover:text-white py-5"
-                                         data-aos="fade-left"
+                                         data-aos="fade-down"
                                          data-aos-offset="230"
                                          data-aos-easing="ease-in-out">
                                         <i className="lni lni-map-marker text-gray-400"></i>

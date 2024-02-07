@@ -4,11 +4,6 @@ const Contact = () => {
     return (
         <>
             <div className={"w-full xl:w-10/12 mx-auto"} id={"contact"}>
-                <div className={"w-full flex justify-end my-2"}>
-                    <svg width="110" height="72" viewBox="0 0 110 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M110 54.7589C110 85.0014 85.3757 66.2583 55 66.2583C24.6243 66.2583 0 85.0014 0 54.7589C0 24.5164 24.6243 0 55 0C85.3757 0 110 24.5164 110 54.7589Z" fill="#EBF4FF"></path>
-                    </svg>
-                </div>
                 <section id="contact" className="contact-section container contact-style-3 bg-white">
                     <div className="container mx-auto px-4 py-16">
                         <div className="md:mx-auto md:w-3/4 lg:w-1/2"

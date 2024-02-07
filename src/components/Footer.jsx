@@ -20,8 +20,7 @@ const Footer = () => {
                         <Link href={"/"}>
                             <img src="/assets/logo.png" alt="Vlad" className="m-auto w-24" />
                         </Link>
-                        <ul
-                            role="list"
+                        <ul role="list"
                             className="flex flex-col items-center justify-center gap-4 py-4 sm:flex-row sm:gap-8"
                         >
                             <li role="listitem">

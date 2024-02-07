@@ -1,16 +1,22 @@
 import React from 'react';
-
+import 'aos/dist/aos.css';
 const Pricing = () => {
     return (
         <>
             <div className="xl:container m-auto px-6 py-20 md:px-12 lg:px-20" id={"pricing"}>
                 <div className="m-auto text-center lg:w-7/12">
-                    <h2 className="text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">
+                    <h2 className="text-2xl font-bold text-gray-800 dark:text-white md:text-4xl"
+                        data-aos="fade-down"
+                        data-aos-offset="200"
+                        data-aos-easing="ease-in-out">
                         Pricing Plan
                     </h2>
                 </div>
                 <div className="mt-12 grid items-center gap-6 md:grid-cols-2 lg:flex lg:space-x-8">
-                    <div className="group relative md:col-span-1 lg:w-[32%]">
+                    <div className="group relative md:col-span-1 lg:w-[32%]"
+                         data-aos="fade-up"
+                         data-aos-offset="250"
+                         data-aos-easing="ease-in-out">
                         <div
                             aria-hidden="true"
                             className="absolute top-0 h-full w-full rounded-3xl border border-gray-100 dark:border-gray-700 bg-white dark:bg-gray-800 shadow-2xl shadow-gray-600/10 dark:shadow-none transition duration-500 group-hover:scale-105 lg:group-hover:scale-110"
@@ -57,7 +63,10 @@ const Pricing = () => {
                             </button>
                         </div>
                     </div>
-                    <div className="group relative row-start-1 md:col-span-2 lg:w-[36%]">
+                    <div className="group relative row-start-1 md:col-span-2 lg:w-[36%]"
+                         data-aos="fade-up"
+                         data-aos-offset="200"
+                         data-aos-easing="ease-in-out">
                         <div
                             aria-hidden="true"
                             className="absolute top-0 h-full w-full rounded-3xl border border-gray-100 dark:border-gray-700 bg-white dark:bg-gray-800 shadow-2xl shadow-gray-600/10 dark:shadow-none transition duration-500 group-hover:scale-105 lg:group-hover:scale-110"
@@ -128,7 +137,10 @@ const Pricing = () => {
                             </button>
                         </div>
                     </div>
-                    <div className="group relative md:col-span-1 lg:w-[32%]">
+                    <div className="group relative md:col-span-1 lg:w-[32%]"
+                         data-aos="fade-up"
+                         data-aos-offset="300"
+                         data-aos-easing="ease-in-out">
                         <div
                             aria-hidden="true"
                             className="absolute top-0 h-full w-full rounded-3xl border border-gray-100 dark:border-gray-700 bg-white dark:bg-gray-800 shadow-2xl shadow-gray-600/10 dark:shadow-none transition duration-500 group-hover:scale-105 lg:group-hover:scale-110"
@@ -165,7 +177,7 @@ const Pricing = () => {
                                 </li>
                             </ul>
                             <button
-                                className="relative flex h-11 w-full items-center bg-[#007cff] justify-center px-6  before:rounded-full rounded-full text-white">
+                                className="relative flex h-11 w-full items-center bg-blue-500 justify-center px-6  before:rounded-full rounded-full text-white">
           <span className="relative text-base font-semibold text-sky-600  dark:text-white">
             Start Plan
           </span>

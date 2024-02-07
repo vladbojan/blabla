@@ -1,4 +1,3 @@
-import Navbar from '@/components/Navbar';
 import Hero from "@/components/Hero";
 import CompanyJobs from "@/components/CompanyJobs";
 import Features from "@/components/Features";
@@ -7,7 +6,7 @@ import Pricing from "@/components/Pricing";
 import Team from "@/components/Team";
 import Testimonial from "@/components/Testimonial";
 import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
+import Translator from "@/components/Translator";
 export default function Home() {
     return (
         <>
@@ -15,11 +14,10 @@ export default function Home() {
             <CompanyJobs/>
             <Features/>
             <RecentWork/>
-            <Pricing/>
             <Team/>
             <Testimonial/>
+            <Pricing/>
             <Contact/>
-            <Footer/>
         </>
     )
 }

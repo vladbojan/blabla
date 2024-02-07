@@ -12,7 +12,7 @@ import {TbZoomInFilled, TbZoomOutFilled} from "react-icons/tb";
 import {FaMinusCircle, FaPlusCircle} from "react-icons/fa";
 import {FaCircleMinus} from "react-icons/fa6";
 import {GiCancel} from "react-icons/gi";
-
+import 'aos/dist/aos.css';
 SwiperCore.use([Pagination]);
 
 
@@ -102,19 +102,19 @@ const Team = () => {
         {
             name: 'Olexandr lvchenko',
             position: 'JAVA Developer',
-            image: '/assets/team/man.png',
+            image: '/assets/team/aiman.png',
             pdf: '/assets/cv/CV-Olexandr-Ivchenko.pdf'
         },
         {
             name: 'MERON HAYLE',
             position: 'Full Stack Developer',
-            image: '/assets/team/man.png',
+            image: '/assets/team/ali.png',
             pdf: '/assets/cv/MeronHayleNP (2).pdf'
         },
         {
             name: 'Thushara Buddhika',
             position: 'Full Stack Developer',
-            image: '/assets/team/man.png',
+            image: '/assets/team/aiman.png',
             pdf: '/assets/cv/Skill Sheet - Thushara Buddhika.pdf'
         },
         {
@@ -146,7 +146,11 @@ const Team = () => {
         <>
             <div className="py-20" id={"team"}>
                 <div className="container mx-auto px-6 text-center md:px-12">
-                    <div className="mb-16">
+                    <div className="mb-16"
+                         data-aos="fade-left"
+                         data-aos-offset="200"
+                         data-aos-easing="ease-in-out"
+                    >
                         <h2 className="mb-4 text-center text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">
                             Our Team
                         </h2>
@@ -184,7 +188,10 @@ const Team = () => {
                     >
                         {teamMembers.map((member, index) => (
                             <SwiperSlide key={index}>
-                                <div className="group space-y-8 border-t-4 p-4 border-gray-100 dark:border-gray-800">
+                                <div className="group space-y-8 border-t-4 p-4 border-gray-100 dark:border-gray-800"
+                                     data-aos="fade-up"
+                                     data-aos-offset={(index + 30) * 10}
+                                     data-aos-easing="ease-in-out">
                                     <div className="mx-auto mt-16 h-32 w-32 rotate-45 overflow-hidden rounded-[2rem]">
                                         <img
                                             className="mx-auto h-full w-full -rotate-45 scale-125 object-cover transition duration-300 group-hover:scale-[1.4]"

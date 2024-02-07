@@ -1,37 +1,49 @@
 import React from 'react';
-
+import 'aos/dist/aos.css';
 const RecentWork = () => {
     // Array of objects containing data for each recent work
     const recentWorksData = [
         {
-            imageUrl: 'assets/projects/romania.png',
-            title: 'Web Design',
-            description: 'Short description for the ones who look for something new. Awesome!'
+            imageUrl: 'assets/projects/identity.png',
+            title: 'Brand Identity Revamp',
+            description: 'Refreshing brand elements for a modern appeal,\n' +
+                'Logo redesign, color palette refinement, and cohesive visual identity,\n' +
+                'Elevate brand perception and recognition in the market.'
         },
         {
-            imageUrl: 'assets/projects/romania.png',
-            title: 'Web Design',
-            description: 'Short description for the ones who look for something new. Awesome!'
+            imageUrl: 'assets/projects/ecommerce.png',
+            title: 'E-commerce Website Optimization',
+            description: 'Enhancing user experience and conversion rates,\n' +
+                'Implementing responsive design, improving site speed, and streamlining checkout process,\n' +
+                'Boost online sales and customer satisfaction.'
         },
         {
-            imageUrl: 'assets/projects/romania.png',
-            title: 'Web Design',
-            description: 'Short description for the ones who look for something new. Awesome!'
+            imageUrl: 'assets/projects/content.png',
+            title: 'Content Strategy Overhaul',
+            description: 'Crafting engaging content aligned with target audience needs,\n' +
+                'Conducting content audit, developing editorial calendar, and optimizing SEO,\n' +
+                'Increase website traffic and brand authority.'
         },
         {
-            imageUrl: 'assets/projects/romania.png',
-            title: 'Web Design',
-            description: 'Short description for the ones who look for something new. Awesome!'
+            imageUrl: 'assets/projects/social.png',
+            title: 'Social Media Marketing Campaign',
+            description: 'Creating impactful social media presence across platforms,\n' +
+                'Developing tailored content, managing ads, and fostering community engagement,\n' +
+                'Grow brand awareness and customer engagement.'
         },
         {
-            imageUrl: 'assets/projects/romania.png',
-            title: 'Web Design',
-            description: 'Short description for the ones who look for something new. Awesome!'
+            imageUrl: 'assets/projects/mobile.png',
+            title: 'Mobile App Development',
+            description: 'Building intuitive and feature-rich mobile application,\n' +
+                'User interface design, backend development, and rigorous testing,\n' +
+                'Deliver seamless mobile experience to enhance customer engagement.'
         },
         {
-            imageUrl: 'assets/projects/romania.png',
-            title: 'Web Design',
-            description: 'Short description for the ones who look for something new. Awesome!'
+            imageUrl: 'assets/projects/data.png',
+            title: 'Data Analysis and Visualization',
+            description: 'Extracting insights from complex datasets,\n' +
+                'Utilizing tools like Python, Tableau, and Excel for data analysis and visualization,\n' +
+                'Empower decision-making and drive business growth with data-driven strategies.'
         }
     ];
 
@@ -39,7 +51,10 @@ const RecentWork = () => {
         <>
             <div className="py-12" id={"portfolio"}>
                 <div className="xl:container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
-                    <div className="mb-12 space-y-2 text-center">
+                    <div className="mb-12 space-y-2 text-center"
+                         data-aos="fade-down"
+                         data-aos-offset="200"
+                         data-aos-easing="ease-in-out">
                         <h2 className="text-3xl font-bold text-gray-800 md:text-4xl dark:text-white">Recent Works</h2>
                         <p className="lg:mx-auto lg:w-6/12 text-gray-600 dark:text-gray-300">
                             Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!
@@ -53,7 +68,11 @@ const RecentWork = () => {
                     <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                         {/* Map over the recentWorksData array to render each recent work dynamically */}
                         {recentWorksData.map((work, index) => (
-                            <div key={index} className="group sm:p-4 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-md shadow-gray-600/10">
+                            <div key={index} className="group sm:px-8 sm:py-4 rounded-3xl bg-white border border-gray-100 dark:shadow-none dark:border-gray-700 dark:bg-gray-800 bg-opacity-50 shadow-md shadow-gray-600/10"
+                                 data-aos="fade-right"
+                                 data-aos-offset={(index + 10) * 10}
+                                 data-aos-easing="ease-in-out"
+                            >
                                 <div className="relative overflow-hidden rounded-xl">
                                     <img
                                         src={work.imageUrl}
@@ -61,14 +80,14 @@ const RecentWork = () => {
                                         loading="lazy"
                                         width="1000"
                                         height="667"
-                                        className="h-48 w-full object-cover object-top transition duration-500 group-hover:scale-105"
+                                        className="h-48 object-contain rounded-md w-full object-top transition duration-500 group-hover:scale-105"
                                     />
                                 </div>
                                 <div className="mt-6 relative">
-                                    <h3 className="text-2xl font-semibold text-gray-800 dark:text-white">
+                                    <h3 className="text-2xl font-semibold text-center text-gray-800 dark:text-white">
                                         {work.title}
                                     </h3>
-                                    <p className="mt-6 mb-8 text-gray-600 dark:text-gray-300">
+                                    <p className="mt-6 mb-8 px-4 text-justify text-gray-600 dark:text-gray-300">
                                         {work.description}
                                     </p>
                                 </div>

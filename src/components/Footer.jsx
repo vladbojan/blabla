@@ -1,39 +1,49 @@
 import React from 'react';
 import Link from "next/link";
+import 'aos/dist/aos.css';
+import ScrollToTopButton from "@/components/ScrollToTopButton";
 
 const Footer = () => {
+    const scrollToSection = (id) => {
+        const section = document.getElementById(id);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
     return (
         <>
+            <ScrollToTopButton/>
             <footer className="w-full bg-gray-100 dark:bg-gray-900 py-16">
                 <div className="md:px-12 lg:px-28">
                     <div className="container m-auto space-y-6 text-gray-600 dark:text-gray-300">
                         <Link href={"/"}>
-                        <img src="/assets/logo.png" alt="Vlad" className="m-auto w-24" />
+                            <img src="/assets/logo.png" alt="Vlad" className="m-auto w-24" />
                         </Link>
                         <ul
                             role="list"
                             className="flex flex-col items-center justify-center gap-4 py-4 sm:flex-row sm:gap-8"
                         >
                             <li role="listitem">
-                                <a href="#" className="text-black hover:text-gray-300">Home</a>
+                                <button onClick={() => scrollToSection('home')} className="text-gray-900 hover:text-blue-400">Home</button>
                             </li>
                             <li role="listitem">
-                                <a href="#" className="text-black hover:text-gray-300">Features</a>
+                                <button onClick={() => scrollToSection('features')} className="text-gray-900 hover:text-blue-400">Features</button>
                             </li>
                             <li role="listitem">
-                                <a href="#" className="text-black hover:text-gray-300">About</a>
+                                <button onClick={() => scrollToSection('about')} className="text-gray-900 hover:text-blue-400">About</button>
                             </li>
                             <li role="listitem">
-                                <a href="#" className="text-black hover:text-gray-300">Portfolio</a>
+                                <button onClick={() => scrollToSection('portfolio')} className="text-gray-900 hover:text-blue-400">Portfolio</button>
                             </li>
                             <li role="listitem">
-                                <a href="#" className="text-black hover:text-gray-300">Pricing</a>
+                                <button onClick={() => scrollToSection('team')} className="text-gray-900 hover:text-blue-400">Team</button>
                             </li>
                             <li role="listitem">
-                                <a href="#" className="text-black hover:text-gray-300">Team</a>
+                                <button onClick={() => scrollToSection('pricing')} className="text-gray-900 hover:text-blue-400">Pricing</button>
                             </li>
                             <li role="listitem">
-                                <a href="#" className="text-black hover:text-gray-300">Contact Us</a>
+                                <button onClick={() => scrollToSection('contact')} className="text-gray-900 hover:text-blue-400">Contact Us</button>
                             </li>
                         </ul>
                         <div className="m-auto flex w-max items-center justify-between space-x-4">
@@ -60,7 +70,7 @@ const Footer = () => {
                                     <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z" />
                                 </svg>
                             </a>
-                            <a href="#" title="facebook" target="blank" aria-label="facebook">
+                            <a href="#" title="facebook" target="_blank" rel="noopener noreferrer" aria-label="facebook">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="currentColor"
@@ -70,7 +80,7 @@ const Footer = () => {
                                     <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
                                 </svg>
                             </a>
-                            <a href="#" title="linkedin" target="blank" aria-label="linkedin">
+                            <a href="#" title="linkedin" target="_blank" rel="noopener noreferrer" aria-label="linkedin">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="currentColor"
@@ -82,9 +92,9 @@ const Footer = () => {
                             </a>
                         </div>
                         <div className="text-center">
-        <span className="text-sm tracking-wide">
-          Copyright © Vlad <span id="year" /> | All right reserved
-        </span>
+                            <span className="text-sm tracking-wide">
+                                Copyright © Vlad <span id="year" /> | All rights reserved
+                            </span>
                         </div>
                     </div>
                 </div>

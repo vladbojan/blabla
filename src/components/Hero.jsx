@@ -3,7 +3,7 @@ import React, {useState} from 'react';
 import {BsFillPlayCircleFill} from "react-icons/bs";
 import {MdOutlineCallEnd} from "react-icons/md";
 import Modal from 'react-modal';
-import {GiCancel} from "react-icons/gi";
+import 'aos/dist/aos.css';
 
 
 const VideoModal = ({isOpen, onClose}) => {
@@ -74,13 +74,16 @@ const Hero = () => {
                 aria-hidden="true"
                 className="absolute inset-0 my-auto w-96 h-32 rotate-45 bg-gradient-to-r from-primaryLight to-secondaryLight blur-3xl opacity-50 dark:opacity-20"
             />
-            <div className="relative lg:flex lg:items-center lg:gap-12">
-                <div
-                    className="text-center lg:text-left md:mt-12 lg:mt-0 sm:w-10/12 md:w-2/3 sm:mx-auto lg:mr-auto lg:w-6/12">
+            <div className="relative lg:flex lg:items-center lg:gap-12" >
+                <div className="text-center lg:text-left md:mt-12 lg:mt-0 sm:w-10/12 md:w-2/3 sm:mx-auto lg:mr-auto lg:w-6/12"
+                     data-aos="fade-right"
+                     data-aos-offset="400"
+                     data-aos-easing="ease-in-out"
+                >
                     <h1 className="text-gray-900 flex flex-col font-bold text-4xl md:text-6xl lg:text-4xl xl:text-6xl dark:text-white">
-                        <span>APOSTOL SI</span>
+                        <span>APOSTOL <span className={"text-blue-400 underline decoration-blue-400"}>SI</span></span>
                         <span
-                            className={"rounded-md py-2 px-4 text-white md:ml-36 md:w-7/12 text-center mt-2 bg-blue-400"}>ASOCIATII</span>
+                            className={"rounded-md py-2 px-4  md:ml-36 md:w-7/12 text-center mt-2 text-gray-900 underline decoration-blue-400 underline-offset-4 "}>ASOCIAT <span className={"text-blue-400"}>II</span></span>
                     </h1>
                     <p className="mt-8 text-gray-600 dark:text-gray-300 text-justify text-md">
                         Our company boasts a highly skilled team of professionals, each possessing a wealth of
@@ -103,7 +106,7 @@ const Hero = () => {
 
                         <VideoModal isOpen={videoModalOpen} onClose={closeVideoModal}/>
                         <button
-                            className="relative h-14 w-52 items-center justify-center px-6 bg-blue-400 rounded-full"
+                            className="relative h-14 w-52 items-center justify-center px-6 bg-blue-500 rounded-full"
                             onClick={() => {
                                 window.location.href = 'mailto:vlad.bojan@jds-europe.com';
                             }}
@@ -119,27 +122,30 @@ const Hero = () => {
                     <div className="mt-16 flex gap-6 lg:gap-12 justify-between grayscale dark:grayscale-0">
                         <img
                             src="/assets/companies/fiverr.png"
-                            className="h-8 sm:h-10 w-auto lg:h-12"
+                            className="h-8 sm:h-10 w-auto lg:h-12 cursor-pointer"
                             alt=""
                         />
                         <img
                             src="/assets/companies/microsoft.png"
-                            className="h-8 sm:h-10 w-auto lg:h-12"
+                            className="h-8 sm:h-10 w-auto lg:h-12 cursor-pointer"
                             alt=""
                         />
                         <img
                             src="/assets/companies/apple.png"
-                            className="h-8 sm:h-10 w-auto lg:h-12"
+                            className="h-8 sm:h-10 w-auto lg:h-12 cursor-pointer"
                             alt=""
                         />
                         <img
                             src="/assets/companies/tesla.png"
-                            className="h-8 sm:h-10 w-auto lg:h-12"
+                            className="h-8 sm:h-10 w-auto lg:h-12 cursor-pointer"
                             alt=""
                         />
                     </div>
                 </div>
-                <div className="overflow-hidden w-full lg:w-7/12 lg:-mr-16">
+                <div className="overflow-hidden w-full lg:w-7/12 lg:-mr-16"
+                     data-aos="fade-left"
+                     data-aos-offset="400"
+                     data-aos-easing="ease-in-out">
                     <img
                         src="/assets/companies/company.jpg"
                         alt="project illustration"

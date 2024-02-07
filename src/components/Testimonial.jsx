@@ -4,7 +4,7 @@ import SwiperCore, { Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-
+import 'aos/dist/aos.css';
 SwiperCore.use([Pagination]);
 
 const TestimonialCarousel = () => {
@@ -60,7 +60,10 @@ const TestimonialCarousel = () => {
 
     return (
         <div className="xl:container m-auto px-6 text-gray-600 dark:text-gray-300 md:px-12 xl:px-6">
-            <h2 className="mb-12 text-center text-2xl font-bold text-gray-800 dark:text-white md:text-4xl">
+            <h2 className="mb-12 text-center text-2xl font-bold text-gray-800 dark:text-white md:text-4xl"
+                data-aos="fade-down"
+                data-aos-offset="200"
+                data-aos-easing="ease-in-out">
                 What's our customers say
             </h2>
             <Swiper

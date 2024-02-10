@@ -4,6 +4,7 @@ import {BsFillPlayCircleFill} from "react-icons/bs";
 import {MdOutlineCallEnd} from "react-icons/md";
 import Modal from 'react-modal';
 import 'aos/dist/aos.css';
+import Translator from "@/components/Translator";
 
 
 const VideoModal = ({isOpen, onClose}) => {

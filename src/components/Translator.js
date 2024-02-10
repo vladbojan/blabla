@@ -34,7 +34,7 @@ const Translator = () => {
 
     return (
         <>
-            <div className={""} id="google_translate_element" style={{height: "40px",width:"150px", overflow: "hidden", borderRadius: "5px", padding: "0 20px"}}></div>
+            <div className={"text-white"} id="google_translate_element" style={{height: "40px",width:"150px", overflow: "hidden",}}></div>
         </>
     );
 };

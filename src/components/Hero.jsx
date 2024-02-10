@@ -84,7 +84,7 @@ const Hero = () => {
                     <h1 className="text-gray-900 flex flex-col font-bold text-4xl md:text-6xl lg:text-4xl xl:text-6xl dark:text-white">
                         <span>APOSTOL <span className={"text-blue-400 underline decoration-blue-400"}>SI</span></span>
                         <span
-                            className={"rounded-md py-2 px-4  md:ml-36 md:w-7/12 text-center mt-2 text-gray-900 underline decoration-blue-400 underline-offset-4 "}>ASOCIAT <span className={"text-blue-400"}>II</span></span>
+                            className={"rounded-md py-2 px-4  md:ml-36 md:w-7/12 text-center mt-2 text-gray-900 underline decoration-blue-400 underline-offset-4 "}>ASOCIATII</span>
                     </h1>
                     <p className="mt-8 text-gray-600 dark:text-gray-300 text-justify text-md">
                         Our company boasts a highly skilled team of professionals, each possessing a wealth of

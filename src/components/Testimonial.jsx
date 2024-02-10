@@ -1,12 +1,14 @@
 "use client"
 import { useEffect } from 'react';
-import SwiperCore, { Pagination } from 'swiper';
-import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'aos/dist/aos.css';
-SwiperCore.use([Pagination]);
-
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 const TestimonialCarousel = () => {
     useEffect(() => {
         const script = document.createElement('script');
@@ -67,8 +69,8 @@ const TestimonialCarousel = () => {
                 What's our customers say
             </h2>
             <Swiper
-
-                className="mySwiper"
+                modules={[Navigation, Pagination, Scrollbar, A11y]}
+                navigation
                 slidesPerView={1}
                 pagination={{ clickable: true }}
             >

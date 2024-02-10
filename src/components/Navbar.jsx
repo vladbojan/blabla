@@ -26,7 +26,7 @@ const Navbar = () => {
                     <img src="/assets/logo.png" alt="Logo" className="h-20 mr-2" />
                     </Link>
                     <Link href={"/"}>
-                    <div><span className="text-gray-900 text-2xl font-semibold">APOSTOL</span> <br/><span className={"ml-8 text-md"}>SI ASOCIAT <span className={"text-blue-400"}>II</span></span></div>
+                    <div><span className="text-gray-900 text-2xl font-semibold">APOSTOL</span> <br/><span className={"ml-8 text-md"}>SI ASOCIATII</span></div>
                     </Link>
                 </div>
                 <div className="hidden md:flex space-x-8 " style={{fontSize:"16px"}}>

@@ -1,7 +1,5 @@
 "use client"
 import React, {useState, useEffect} from 'react';
-import SwiperCore, {Pagination} from 'swiper';
-import {Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import {Document, Page, pdfjs} from 'react-pdf';
@@ -10,11 +8,15 @@ import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import {TbZoomInFilled, TbZoomOutFilled} from "react-icons/tb";
 import {FaMinusCircle, FaPlusCircle} from "react-icons/fa";
-import {FaCircleMinus} from "react-icons/fa6";
 import {GiCancel} from "react-icons/gi";
 import 'aos/dist/aos.css';
-SwiperCore.use([Pagination]);
 
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 pdfjs.GlobalWorkerOptions.workerSrc = new URL(
     'pdfjs-dist/build/pdf.worker.min.js',
@@ -95,36 +97,29 @@ const Team = () => {
 
     const teamMembers = [
         {
-            name: 'Sokol Vitalii',
+            name: 'Mariana Manole',
             position: 'Senior Quality Assurance Engineer',
             image: '/assets/team/man.png',
             pdf: '/assets/cv/CV Vitalii Sokol QA Final.pdf'
         },
         {
-            name: 'Olexandr lvchenko',
-            position: 'JAVA Developer',
+            name: 'Vlad Bojan',
+            position: 'Software Architect (Consultant)',
             image: '/assets/team/aiman.png',
             pdf: '/assets/cv/CV-Olexandr-Ivchenko.pdf'
         },
         {
-            name: 'MERON HAYLE',
+            name: 'Ilie Anton',
             position: 'Full Stack Developer',
             image: '/assets/team/ali.png',
             pdf: '/assets/cv/MeronHayleNP (2).pdf'
         },
         {
-            name: 'Thushara Buddhika',
+            name: 'Ilie Anton',
             position: 'Full Stack Developer',
-            image: '/assets/team/aiman.png',
-            pdf: '/assets/cv/Skill Sheet - Thushara Buddhika.pdf'
-        },
-        {
-            name: 'Jonathan Doe',
-            position: 'Chief Technical Officer',
-            image: '/assets/team/man.png',
-            pdf: '/assets/cv/Skill Sheet - Thushara Buddhika.pdf'
+            image: '/assets/team/ali.png',
+            pdf: '/assets/cv/MeronHayleNP (2).pdf'
         }
-
     ];
 
     useEffect(() => {
@@ -185,12 +180,10 @@ const Team = () => {
                         </svg>
                     </div>
                     <Swiper
-                        spaceBetween={50}
-                        slidesPerView={4}
-                        navigation={true}
-                        pagination={{clickable: true}}
-                        scrollbar={{draggable: true}}
-                        autoplay={{delay: 3000}}
+                        modules={[Navigation, Pagination, Scrollbar, A11y]}
+                        spaceBetween={100}
+                        slidesPerView={3}
+                        navigation
                         breakpoints={{
                             0: {
                                 slidesPerView: 1 // For mobile devices

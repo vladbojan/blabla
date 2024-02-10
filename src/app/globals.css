@@ -1,27 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 *{
     padding: 0px;
     margin: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .goog-te-gadget-icon {
     display:none;
 }
-
-
 .goog-te-gadget-simple {
     background-color: #2196f3 !important;
     border:0 !important;
-    border-radius:5px !important;
+    border-radius: 10px 10px 10px 10px !important;
     color:white !important;
     font-size: 10pt;
     font-weight:600;
-    display: inline-block;
+    display: flex !important;
     padding:10px 5px !important;
     cursor: pointer;
 }
@@ -32,4 +29,60 @@
     font-size: 14px !important;
     font-weight:600;
 
+}
+/* styles.css */
+
+.fixed-con {
+    z-index: 9724790009779558!important;
+    background-color: #f7f8fc;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
+
+.VIpgJd-ZVi9od-aZ2wEe-wOHMyf {
+    z-index: 9724790009779!important;
+    top: 0;
+    left: unset;
+    right: -5px;
+    display: none!important;
+    border-radius: 50%;
+    border: 2px solid gold;
+}
+
+.VIpgJd-ZVi9od-aZ2wEe-OiiCO {
+    width: 80px;
+    height: 80px;
+}
+
+/* Hide Google Translate link, logo, banner-frame */
+.goog-logo-link,
+.gskiptranslate,
+.goog-te-banner-frame,
+#goog-gt-tt,
+.goog-te-balloon-frame,
+div#goog-gt- {
+    display: none!important;
+}
+
+.goog-te-gadget {
+    color: transparent!important;
+    font-size: 0px;
+}
+
+.goog-text-highlight {
+    background: none !important;
+    box-shadow: none !important;
+}
+
+/* Google Translate Dropdown */
+#google_translate_element select {
+    background: #f6edfd;
+    color: #383ffa;
+    border: none;
+    border-radius: 10px 10px 10px 10px !important;
+    padding: 6px 8px;
 }

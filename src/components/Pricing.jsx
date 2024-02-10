@@ -27,7 +27,7 @@ const Pricing = () => {
                             </h3>
                             <div className="relative flex justify-around">
                                 <div className="flex">
-            <span className="-ml-6 mt-2 text-3xl font-bold text-primary">
+            <span className="-ml-12 mt-2 text-3xl font-bold text-primary">
               $
             </span>
                                     <span className="leading-0 text-8xl font-bold text-gray-800 dark:text-white">

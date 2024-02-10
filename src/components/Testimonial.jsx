@@ -70,7 +70,6 @@ const TestimonialCarousel = () => {
             </h2>
             <Swiper
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
-                navigation
                 slidesPerView={1}
                 pagination={{ clickable: true }}
             >

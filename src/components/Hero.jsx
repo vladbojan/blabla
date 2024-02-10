@@ -4,14 +4,20 @@ import {BsFillPlayCircleFill} from "react-icons/bs";
 import {MdOutlineCallEnd} from "react-icons/md";
 import Modal from 'react-modal';
 import 'aos/dist/aos.css';
-import Translator from "@/components/Translator";
+import Link from "next/link";
 
 
 const VideoModal = ({isOpen, onClose}) => {
-    // YouTube video ID
     const videoId = 'pWOv9xcoMeY?si=jigNnHAd0jAIc4-t';
+    const companies = [
+        { name: 'Fiverr', image: '/assets/companies/fiverr.png' },
+        { name: 'Microsoft', image: '/assets/companies/microsoft.png' },
+        { name: 'Apple', image: '/assets/companies/apple.png' },
+        { name: 'Tesla', image: '/assets/companies/tesla.png' },
+    ];
 
-    return (<Modal
+    return (
+        <Modal
         isOpen={isOpen}
         onRequestClose={onClose}
         contentLabel="Video Modal"
@@ -120,27 +126,35 @@ const Hero = () => {
 
                     </div>
 
-                    <div className="mt-16 flex gap-6 lg:gap-12 justify-between grayscale dark:grayscale-0">
+                    <div className="mt-16 flex gap-6 lg:gap-12 justify-between items-center grayscale dark:grayscale-0">
+                        <Link href="https://www.florariairis.ro/" target="_blank">
+                                <img
+                                    src="/assets/companies/Floraria.png"
+                                    className="h-10 sm:h-10 w-auto lg:h-8 cursor-pointer"
+                                    alt=""
+                                />
+                        </Link>
+                        <Link href="https://www.romstal.ro/" target="_blank">
                         <img
-                            src="/assets/companies/fiverr.png"
-                            className="h-8 sm:h-10 w-auto lg:h-12 cursor-pointer"
+                            src="/assets/companies/romstal.png"
+                            className="h-8 sm:h-10 w-auto lg:h-6 cursor-pointer"
                             alt=""
                         />
+                        </Link>
+                        <Link href="https://evohouse.eu/" target="_blank">
                         <img
-                            src="/assets/companies/microsoft.png"
-                            className="h-8 sm:h-10 w-auto lg:h-12 cursor-pointer"
+                            src="/assets/companies/evohouse.png"
+                            className="h-8 sm:h-10 w-auto lg:h-6 cursor-pointer"
                             alt=""
                         />
+                        </Link>
+                        <Link href="https://acgbd.com/" target="_blank">
                         <img
-                            src="/assets/companies/apple.png"
-                            className="h-8 sm:h-10 w-auto lg:h-12 cursor-pointer"
+                            src="/assets/companies/acgbd.png"
+                            className="h-8 sm:h-10 w-auto lg:h-6 cursor-pointer"
                             alt=""
                         />
-                        <img
-                            src="/assets/companies/tesla.png"
-                            className="h-8 sm:h-10 w-auto lg:h-12 cursor-pointer"
-                            alt=""
-                        />
+                        </Link>
                     </div>
                 </div>
                 <div className="overflow-hidden w-full lg:w-7/12 lg:-mr-16"

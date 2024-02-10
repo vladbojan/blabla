@@ -56,6 +56,7 @@ const Navbar = () => {
                     <button onClick={() => scrollToSection('team')} className="text-gray-900 hover:text-blue-400">Team</button>
                     <button onClick={() => scrollToSection('pricing')} className="text-gray-900 hover:text-blue-400">Pricing</button>
                     <button onClick={() => scrollToSection('contact')} className="text-gray-900 hover:text-blue-400">Contact Us</button>
+                    <Translator/>
                 </div>
             </div>
         </nav>

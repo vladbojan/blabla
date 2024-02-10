@@ -1,5 +1,5 @@
 "use client"
-import React, { useEffect, useState } from 'react';
+import React, {useEffect, useState} from 'react';
 
 const Translator = () => {
     const [scriptInjected, setScriptInjected] = useState(false);
@@ -33,7 +33,9 @@ const Translator = () => {
     }, [scriptInjected]);
 
     return (
-        <div id="google_translate_element" style={{ height: "40px",overflow:"hidden", borderRadius:"5px", padding:"0 20px"}}></div>
+        <>
+            <div className={""} id="google_translate_element" style={{height: "40px",width:"150px", overflow: "hidden", borderRadius: "5px", padding: "0 20px"}}></div>
+        </>
     );
 };
 

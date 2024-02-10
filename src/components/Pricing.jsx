@@ -34,7 +34,7 @@ const Pricing = () => {
               19
             </span>
                                 </div>
-                                <span className="absolute right-9 bottom-2 text-xl font-bold text-primary">
+                                <span className="absolute right-6 bottom-2 text-xl font-bold text-primary">
             / Month
           </span>
                             </div>

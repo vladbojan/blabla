@@ -41,7 +41,7 @@ const Customer = () => {
     ];
 
     return (
-        <div className="xl:container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
+        <div className="xl:container m-auto px-6 text-gray-600 md:px-12 xl:px-6" id={"customer"}>
             <div className="mb-6 space-y-2 text-center"
                  data-aos="fade-down"
                  data-aos-offset="200"
@@ -53,10 +53,10 @@ const Customer = () => {
             </div>
             <div className={"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3"}>
                 {companies.map((company, index) => (
-                    <div key={index} className="relative flex flex-col justify-center overflow-hidden py-2 sm:py-4">
-                        <div className="group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-md ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
+                    <div key={index} className=" z-1 flex flex-col justify-center overflow-hidden py-2 sm:py-4">
+                        <div className="group cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-md ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
                             <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-blue-400 transition-all duration-300 group-hover:scale-[10]" />
-                            <div className="relative z-10 mx-auto max-w-md">
+                            <div className="relative z-1 mx-auto max-w-md">
                                 <img
                                     src={company.image}
                                     alt={company.name}

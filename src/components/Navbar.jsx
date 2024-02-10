@@ -32,6 +32,7 @@ const Navbar = () => {
                 <div className="hidden md:flex space-x-8 " style={{fontSize:"16px"}}>
                     <button onClick={() => scrollToSection('home')} className="text-gray-900 hover:text-blue-400">Home</button>
                     <button onClick={() => scrollToSection('features')} className="text-gray-900 hover:text-blue-400">Features</button>
+                    <button onClick={() => scrollToSection('customer')} className="text-gray-900 hover:text-blue-400">Customer</button>
                     <button onClick={() => scrollToSection('portfolio')} className="text-gray-900 hover:text-blue-400">Portfolio</button>
                     <button onClick={() => scrollToSection('team')} className="text-gray-900 hover:text-blue-400">Team</button>
                     <button onClick={() => scrollToSection('testimonial')} className="text-gray-900 hover:text-blue-400">Testimonial</button>

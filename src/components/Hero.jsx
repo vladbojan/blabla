@@ -5,6 +5,7 @@ import {MdOutlineCallEnd} from "react-icons/md";
 import Modal from 'react-modal';
 import 'aos/dist/aos.css';
 import Link from "next/link";
+import Translator from "@/components/Translator";
 
 
 const VideoModal = ({isOpen, onClose}) => {
@@ -75,8 +76,9 @@ const Hero = () => {
     const closeVideoModal = () => {
         setVideoModalOpen(false);
     };
-    return (<>
-        <div className="pt-4 md:py-6 m-auto px-6 md:px-4 container px-6" id={"home"}>
+    return (
+        <>
+            <div className="pt-4 md:py-6 m-auto px-6 md:px-4 container px-6" id={"home"}>
             <div
                 aria-hidden="true"
                 className="absolute inset-0 my-auto w-96 h-32 rotate-45 bg-gradient-to-r from-primaryLight to-secondaryLight blur-3xl opacity-50 dark:opacity-20"

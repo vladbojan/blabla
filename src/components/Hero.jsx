@@ -126,11 +126,11 @@ const Hero = () => {
 
                     </div>
 
-                    <div className="mt-16 flex gap-6 lg:gap-12 justify-between items-center grayscale dark:grayscale-0">
+                    <div className="mt-16 flex gap-6 lg:gap-12 justify-between items-center ">
                         <Link href="https://www.florariairis.ro/" target="_blank">
                                 <img
                                     src="/assets/companies/Floraria.png"
-                                    className="h-10 sm:h-10 w-auto lg:h-8 cursor-pointer"
+                                    className="h-14 sm:h-12 w-auto lg:h-10 cursor-pointer"
                                     alt=""
                                 />
                         </Link>

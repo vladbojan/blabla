@@ -164,7 +164,7 @@ const Team = () => {
                 <div className={"w-full flex justify-end mt-4"}>
                     <span><MdCancel  onClick={() => setOpen(false)} color={"#2196f3"}  className={"me-6 w-6 h-6 cursor-pointer"}/></span>
                 </div>
-                <DialogBody style={{ overflowY: 'auto' }}>
+                <DialogBody className={"overflow-y-scroll !px-5"}>
                     {selectedMember && (
                         <>
                             <h2 className="text-center text-2xl font-bold mb-4">{selectedMember.name}</h2>

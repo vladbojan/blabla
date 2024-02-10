@@ -6,13 +6,14 @@ import Pricing from "@/components/Pricing";
 import Team from "@/components/Team";
 import Testimonial from "@/components/Testimonial";
 import Contact from "@/components/Contact";
-import Translator from "@/components/Translator";
+import Customer from "@/components/Customer";
 export default function Home() {
     return (
         <>
             <Hero/>
             <CompanyJobs/>
             <Features/>
+            <Customer/>
             <RecentWork/>
             <Team/>
             <Testimonial/>

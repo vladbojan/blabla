@@ -24,35 +24,35 @@ const TestimonialCarousel = () => {
     const testimonials = [
         {
             avatar: 'assets/team/man.png',
-            text: 'Apostol Si Asociat II has been instrumental in transforming our business operations. Their software solutions are not just innovative but also seamlessly integrate with our existing systems, enhancing efficiency and productivity. Working with their team has been a pleasure, and I highly recommend their services to any company looking to stay ahead in the tech game.',
+            text: 'Apostol Si Asociat II has been instrumental in transforming our business operations. Their software solutions are not just innovative but also seamlessly integrate with our existing systems.',
             name: 'John Doe',
             position: 'Product Designer',
             logo: '/assets/logo.png'
         },
         {
             avatar: 'assets/team/ali.png',
-            text: 'We\'ve been partnering with Apostol Si Asociat II for several years now, and their commitment to quality and excellence has never wavered. Their software products have revolutionized how we manage data and streamline processes within our organization. Their team\'s expertise and dedication to customer satisfaction make them a trusted partner for any tech endeavor.',
+            text: 'We\'ve been partnering with Apostol Si Asociat II for several years now, and their commitment to quality and excellence has never wavered. ',
             name: 'John Doe',
             position: 'Product Designer',
             logo: '/assets/logo.png'
         },
         {
             avatar: 'assets/team/aiman.png',
-            text: 'Apostol Si Asociat II sets the bar high when it comes to software development. Their solutions are not only robust and reliable but also tailored to meet our specific business needs. Their team\'s responsiveness and proactive approach to problem-solving have made them an invaluable asset to our company. We\'re grateful for their partnership and look forward to continued collaboration.',
+            text: 'Apostol Si Asociat II sets the bar high when it comes to software development. Their solutions are not only robust and reliable but also tailored to meet our specific business needs.',
             name: 'John Doe',
             position: 'Product Designer',
             logo: '/assets/logo.png'
         },
         {
             avatar: 'assets/team/man.png',
-            text: 'Choosing Apostol Si Asociat II as our software provider was one of the best decisions we made for our business. Their cutting-edge technologies and forward-thinking approach have helped us stay ahead of the competition. Their team\'s professionalism and attention to detail have made every project a success. We\'re proud to be associated with such a reputable company.',
+            text: 'Choosing Apostol Si Asociat II as our software provider was one of the best decisions we made for our business. ',
             name: 'John Doe',
             position: 'Product Designer',
             logo: '/assets/logo.png'
         },
         {
             avatar: 'assets/team/ali.png',
-            text: 'Working with Apostol Si Asociat II has been a game-changer for our organization. Their software solutions have not only simplified our workflows but also significantly reduced our operational costs. The level of expertise and support they provide is unmatched, and we consider them an indispensable partner in our journey towards digital transformation',
+            text: 'Working with Apostol Si Asociat II has been a game-changer for our organization. Their software solutions have not only simplified our workflows but also significantly reduced our operational costs. ',
             name: 'John Doe',
             position: 'Product Designer',
             logo: '/assets/logo.png'

@@ -34,7 +34,7 @@ const Team = () => {
             position: 'Senior Quality Assurance',
             image: '/assets/team/user.png',
             pdf: '/assets/cv/CV Mariana Manole.pdf',
-            description: 'Mariana Manole is a highly skilled Senior Quality Assurance Engineer with a proven track record of ensuring the quality and reliability of software products. With meticulous attention to detail, she excels in identifying and resolving issues to deliver top-notch solutions.',
+            description: 'Mariana Manole is a highly skilled Senior Quality Assurance Engineer with a proven track record of ensuring the quality and reliability of software products.',
             destinations: ['Beach Getaway', 'Mountain Retreat', 'City Exploration', 'Cultural Tour'],
             companies: ['Tech Solutions LLC', 'Digital Innovators Inc', 'WebTech Solutions'],
             skills: ['Manual Testing', 'Automated Testing', 'Test Planning'],
@@ -152,19 +152,18 @@ const Team = () => {
                 </div>
             </div>
             <Dialog
-                style={{overflow: 'auto'}}
                 size="lg"
                 open={open}
                 handler={handleClose} // Close the dialog when handler is called
                 animate={{
                     mount: { scale: 1, y: 0 },
-                    unmount: { scale: 0.9, y: -100 },
+                    unmount: { scale: .6, y: -100 },
                 }}
             >
                 <div className={"w-full flex justify-end mt-4"}>
                     <span><MdCancel  onClick={() => setOpen(false)} color={"#2196f3"}  className={"me-6 w-6 h-6 cursor-pointer"}/></span>
                 </div>
-                <DialogBody className={"overflow-y-scroll !px-5"}>
+                <DialogBody className={""}>
                     {selectedMember && (
                         <>
                             <h2 className="text-center text-2xl font-bold mb-4">{selectedMember.name}</h2>

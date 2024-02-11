@@ -85,4 +85,36 @@ div#goog-gt- {
     border: none;
     border-radius: 10px 10px 10px 10px !important;
     padding: 6px 8px;
+    font-size: 10pt;
+
+    font-weight: 600;
+    display: flex !important;
+    cursor: pointer;
+}
+
+#google_translate_element select option {
+    font-size: 14px !important;
+    font-weight: 600;
+    border-radius: 10px 10px 10px 10px !important;
+}
+.goog-te-gadget-simple .goog-te-menu-value{
+    background-color: black!important;
+}
+.goog-te-gadget-simple .goog-te-menu-frame{
+    background-color: black!important;
+}
+.goog-te-gadget-simple .goog-te-menu-value span{
+    background-color: black!important;
+}
+.goog-te-gadget-simple .goog-te-menu-button{
+    background-color: black!important;
+}
+.goog-te-gadget-simple .goog-te-menu-button-arrow{
+    background-color: black!important;
+}
+.goog-te-gadget-simple .goog-te-menu-button-open{
+    background-color: black!important;
+}
+.goog-te-gadget-simple .goog-te-menu-button-closed{
+    background-color: black !important;
 }

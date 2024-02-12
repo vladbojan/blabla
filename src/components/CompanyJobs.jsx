@@ -1,54 +1,53 @@
-import React from 'react';
+"use client"
+import React, {useContext} from 'react';
 import 'aos/dist/aos.css';
+import { useLanguage} from '../../context/LanguageContext'; // Import the LanguageContext
+
 const CompanyJobs = () => {
+    const { translations } = useLanguage();
+
     // Array of objects containing data for each card
     const jobsData = [
         {
+            key: 'graphicsDesign', // Unique key for each job
             icon: '/assets/skills/graphic.png',
-            title: 'Graphics Design',
-            description: 'Unlock your creativity with stunning visuals,\n' +
-                'Where imagination meets pixels,\n' +
-                'Crafting designs that leave lasting impressions.',
+            title: translations.companyJobs.graphicsDesign.title, // Access translated title
+            description: translations.companyJobs.graphicsDesign.description, // Access translated description
             link: '#'
+
         },
         {
+            key: 'printDesign',
             icon: '/assets/skills/print.png',
-            title: 'Print Design',
-            description: 'Bringing ideas to life on tangible canvas,\n' +
-                'From brochures to posters, our designs enchant,\n' +
-                'Captivate your audience with printed perfection.',
+            title: translations.companyJobs.printDesign.title, // Access translated title
+            description: translations.companyJobs.printDesign.description,
             link: '#'
         },
         {
+            key: 'businessAnalysis',
             icon: '/assets/skills/analytics.png',
-            title: 'Business Analysis',
-            description: 'Deciphering data to drive strategic decisions,\n' +
-                'Unraveling insights for organizational precision,\n' +
-                'Empowering businesses with analytical vision.',
+            title: translations.companyJobs.businessAnalysis.title, // Access translated title
+            description: translations.companyJobs.businessAnalysis.description,
             link: '#'
         },
         {
+            key: 'webDevelopment',
             icon: '/assets/skills/development.png',
-            title: 'Web Development',
-            description: 'Building digital landscapes, pixel by pixel,\n' +
-                'Transforming concepts into interactive portals,\n' +
-                'Crafting the virtual realm with code and creativity.',
+            title: translations.companyJobs.webDevelopment.title, // Access translated title
+            description: translations.companyJobs.webDevelopment.description,
             link: '#'
         },
         {
             icon: '/assets/skills/security.png',
-            title: 'Best Security',
-            description: 'Shielding your digital fortress from cyber threats,\n' +
-                'With encryption strong, your data never frets,\n' +
-                'Fortifying defenses to keep intruders at bay.',
+            title: translations.companyJobs.bestSecurity.title, // Access translated title
+            description: translations.companyJobs.bestSecurity.description,
             link: '#'
         },
         {
+            key: 'Designing',
             icon: '/assets/skills/desing.png',
-            title: 'Web Design',
-            description: 'Crafting digital experiences with finesse,\n' +
-                'Where aesthetics meet seamless user access,\n' +
-                'Elevating online presence with design prowess.',
+            title: translations.companyJobs.webDesign.title, // Access translated title
+            description: translations.companyJobs.webDesign.description,
             link: '#'
         }
     ];
@@ -61,9 +60,9 @@ const CompanyJobs = () => {
                      data-aos-offset="200"
                      data-aos-easing="ease-in-out"
                 >
-                    <h2 className="text-3xl font-bold text-gray-800 md:text-4xl dark:text-white">Services</h2>
+                    <h2 className="text-3xl font-bold text-gray-800 md:text-4xl dark:text-white">{translations.companyJobs.companyJobsTitle}</h2>
                     <p className="lg:mx-auto lg:w-6/12 text-gray-600 dark:text-gray-300">
-                        The future of design begins its journey right here at APOSTOL SI ASOCIATII, where innovation meets creativity to shape tomorrow's digital landscape.
+                        {translations.companyJobs.companyJobsDescription}
                     </p>
                 </div>
                 <div className="container relative m-auto px-6 text-gray-500 md:px-12">
@@ -91,12 +90,6 @@ const CompanyJobs = () => {
                                 <p>
                                     {job.description}
                                 </p>
-                                {/*<a*/}
-                                {/*    href={job.link}*/}
-                                {/*    className="relative mx-auto flex h-10 w-10 items-center justify-center before:absolute before:inset-0 before:rounded-full before:border before:border-gray-100 dark:before:border-gray-600 before:transition before:duration-300 group-hover:before:scale-125"*/}
-                                {/*>*/}
-                                {/*    <span className="text-primary">→</span>*/}
-                                {/*</a>*/}
                             </div>
                         ))}
                     </div>

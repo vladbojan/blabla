@@ -1,9 +1,12 @@
+"use client"
 import React from 'react';
 import Link from "next/link";
 import 'aos/dist/aos.css';
 import ScrollToTopButton from "@/components/ScrollToTopButton";
+import {useLanguage} from "../../context/LanguageContext";
 
 const Footer = () => {
+    const { translations } = useLanguage();
     const scrollToSection = (id) => {
         const section = document.getElementById(id);
         if (section) {
@@ -24,22 +27,22 @@ const Footer = () => {
                             className="flex flex-col items-center justify-center gap-4 py-4 sm:flex-row sm:gap-8"
                         >
                             <li role="listitem">
-                                <button onClick={() => scrollToSection('home')} className="text-gray-900 hover:text-blue-400">Home</button>
+                                <button onClick={() => scrollToSection('home')} className="text-gray-900 hover:text-blue-400">{translations.footer.home}</button>
                             </li>
                             <li role="listitem">
-                                <button onClick={() => scrollToSection('features')} className="text-gray-900 hover:text-blue-400">Features</button>
+                                <button onClick={() => scrollToSection('features')} className="text-gray-900 hover:text-blue-400">{translations.footer.features}</button>
                             </li>
                             <li role="listitem">
-                                <button onClick={() => scrollToSection('portfolio')} className="text-gray-900 hover:text-blue-400">Portfolio</button>
+                                <button onClick={() => scrollToSection('portfolio')} className="text-gray-900 hover:text-blue-400">{translations.footer.portfolio}</button>
                             </li>
                             <li role="listitem">
-                                <button onClick={() => scrollToSection('team')} className="text-gray-900 hover:text-blue-400">Team</button>
+                                <button onClick={() => scrollToSection('team')} className="text-gray-900 hover:text-blue-400">{translations.footer.team}</button>
                             </li>
                             <li role="listitem">
-                                <button onClick={() => scrollToSection('pricing')} className="text-gray-900 hover:text-blue-400">Pricing</button>
+                                <button onClick={() => scrollToSection('pricing')} className="text-gray-900 hover:text-blue-400">{translations.footer.pricing}</button>
                             </li>
                             <li role="listitem">
-                                <button onClick={() => scrollToSection('contact')} className="text-gray-900 hover:text-blue-400">Contact Us</button>
+                                <button onClick={() => scrollToSection('contact')} className="text-gray-900 hover:text-blue-400">{translations.footer.contact}</button>
                             </li>
                         </ul>
                         <div className="m-auto flex w-max items-center justify-between space-x-4">
@@ -89,7 +92,7 @@ const Footer = () => {
                         </div>
                         <div className="text-center">
                             <span className="text-sm tracking-wide">
-                                Copyright © Vlad <span id="year" /> | All rights reserved
+                                {translations.footer.copyRight}
                             </span>
                         </div>
                     </div>

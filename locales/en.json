@@ -1,0 +1,218 @@
+
+{
+  "navbar": {
+    "home": "Home",
+    "features": "Features",
+    "customer": "Customer",
+    "portfolio": "Portfolio",
+    "team": "Team",
+    "testimonial": "Testimonial",
+    "pricing": "Pricing",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "heading1": "APOSTOL",
+    "heading2": "SI ASOCIATII",
+    "cta1": "Watch Demo",
+    "cta2": "Book a Call",
+    "description": "Our company boasts a highly skilled team of professionals, each possessing a wealth of expertise and a passion for innovation. We take pride in our talented team, whose diverse backgrounds and collaborative spirit drive the success of every project we undertake."
+  },
+  "companyJobs": {
+    "companyJobsTitle": "Services",
+    "companyJobsDescription": "The future of design begins its journey right here at APOSTOL SI ASOCIATII, where innovation meets creativity to shape tomorrow's digital landscape.",
+    "graphicsDesign": {
+      "title": "Graphics Design",
+      "description": "Unlock your creativity with stunning visuals,\nWhere imagination meets pixels,\nCrafting designs that leave lasting impressions."
+    },
+    "printDesign": {
+      "title": "Print Design",
+      "description": "Bringing ideas to life on tangible canvas,\nFrom brochures to posters, our designs enchant,\nCaptivate your audience with printed perfection."
+    },
+    "businessAnalysis": {
+      "title": "Business Analysis",
+      "description": "Deciphering data to drive strategic decisions,\nUnraveling insights for organizational precision,\nEmpowering businesses with analytical vision."
+    },
+    "webDevelopment": {
+      "title": "Web Development",
+      "description": "Building digital landscapes, pixel by pixel,\nTransforming concepts into interactive portals,\nCrafting the virtual realm with code and creativity."
+    },
+    "bestSecurity": {
+      "title": "Best Security",
+      "description": "Shielding your digital fortress from cyber threats,\nWith encryption strong, your data never frets,\nFortifying defenses to keep intruders at bay."
+    },
+    "webDesign": {
+      "title": "Web Design",
+      "description": "Crafting digital experiences with finesse,\nWhere aesthetics meet seamless user access,\nElevating online presence with design prowess."
+    }
+  },
+  "features": {
+    "title": "The future of designing starts here",
+    "description": "The future of design begins its journey right here at APOSTOL SI ASOCIATII, where innovation meets creativity to shape tomorrow's digital landscape.",
+    "softwareSolutions": {
+      "title": "Software solutions",
+      "description": "Tailored software solutions | Expert consulting"
+    },
+    "coreDevelopment": {
+      "title": "Core Development",
+      "description": "Agile development methodology | Customer-centric"
+    },
+    "hostingMigration": {
+      "title": "Hosting & Migration",
+      "description": "Seamless integration capabilities | Proven track record"
+    }
+  },
+  "customerHeader": {
+    "title": "Trusted Customers",
+    "description": "Our reputation is built on trust – over 1000 companies worldwide rely on our expertise and solutions to drive success."
+  },
+  "trustedCustomers": [
+    {
+      "name": "Floraria Iris",
+      "description": "Innovating Success Through Trusted Collaborations. Empowering Businesses Worldwide with Excellence.",
+      "link": "https://www.florariairis.ro/",
+      "image": "/assets/companies/Floraria.png"
+    },
+    {
+      "name": "Digital Innovators Inc",
+      "description": "Innovating Success Through Trusted Collaborations. Empowering Businesses Worldwide with Excellence.",
+      "link": "https://acgbd.com/",
+      "image": "/assets/companies/acgbd.png"
+    },
+    {
+      "name": "Digital Innovators Inc",
+      "description": "Innovating Success Through Trusted Collaborations. Empowering Businesses Worldwide with Excellence.",
+      "link": "https://acgbd.com/",
+      "image": "/assets/companies/acgbd.png"
+    },
+    {
+      "name": "WebTech Solutions",
+      "description": "Innovating Success Through Trusted Collaborations. Empowering Businesses Worldwide with Excellence.",
+      "link": "https://evohouse.eu/",
+      "image": "/assets/companies/evohouse.png"
+    },
+    {
+      "name": "Creative Minds Ltd",
+      "description": "Innovating Success Through Trusted Collaborations. Empowering Businesses Worldwide with Excellence.",
+      "link": "https://www.romstal.ro/",
+      "image": "/assets/companies/romastal.png"
+    },
+    {
+      "name": "Creative Minds Ltd",
+      "description": "Innovating Success Through Trusted Collaborations. Empowering Businesses Worldwide with Excellence.",
+      "link": "https://www.siqsess.com/#/home",
+      "image": "/assets/companies/siqces.png"
+    }
+  ],
+  "recentWorks": {
+    "title": "Recent Works",
+    "description": "Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!",
+    "works": [
+      {
+        "title": "Brand Identity Revamp",
+        "description": "Refreshing brand elements for a modern appeal,\nLogo redesign, color palette refinement, and cohesive visual identity,\nElevate brand perception and recognition in the market.",
+        "imageUrl": "assets/projects/identity.png"
+      },
+      {
+        "title": "E-commerce Website Optimization",
+        "description": "Enhancing user experience and conversion rates,\nImplementing responsive design, improving site speed, and streamlining checkout process,\nBoost online sales and customer satisfaction.",
+        "imageUrl": "assets/projects/ecommerce.png"
+      },
+      {
+        "title": "Content Strategy Overhaul",
+        "description": "Crafting engaging content aligned with target audience needs,\nConducting content audit, developing editorial calendar, and optimizing SEO,\nIncrease website traffic and brand authority.",
+        "imageUrl": "assets/projects/content.png"
+      },
+      {
+        "title": "Social Media Marketing Campaign",
+        "description": "Creating impactful social media presence across platforms,\nDeveloping tailored content, managing ads, and fostering community engagement,\nGrow brand awareness and customer engagement.",
+        "imageUrl": "assets/projects/social.png"
+      },
+      {
+        "title": "Mobile App Development",
+        "description": "Building intuitive and feature-rich mobile application,\nUser interface design, backend development, and rigorous testing,\nDeliver seamless mobile experience to enhance customer engagement.",
+        "imageUrl": "assets/projects/mobile.png"
+      },
+      {
+        "title": "Data Analysis and Visualization",
+        "description": "Extracting insights from complex datasets,\nUtilizing tools like Python, Tableau, and Excel for data analysis and visualization,\nEmpower decision-making and drive business growth with data-driven strategies.",
+        "imageUrl": "assets/projects/data.png"
+      }
+    ]
+  },
+  "testimonial": {
+    "title": "What's our customers say",
+    "testimonial1": "Apostol Si Asociat II has been instrumental in transforming our business operations. Their software solutions are not just innovative but also seamlessly integrate with our existing systems.",
+    "testimonial2": "We've been partnering with Apostol Si Asociat II for several years now, and their commitment to quality and excellence has never wavered.",
+    "testimonial3": "Apostol Si Asociat II sets the bar high when it comes to software development. Their solutions are not only robust and reliable but also tailored to meet our specific business needs.",
+    "testimonial4": "Choosing Apostol Si Asociat II as our software provider was one of the best decisions we made for our business.",
+    "testimonial5": "Working with Apostol Si Asociat II has been a game-changer for our organization. Their software solutions have not only simplified our workflows but also significantly reduced our operational costs."
+  },
+  "pricing": {
+    "title": "Pricing Plan",
+    "monthly": {
+      "title": "Monthly",
+      "priceLabel": "/ Month",
+      "price": "19",
+      "discountApplied": "None",
+      "advantages": {
+        "first": "First premium advantage",
+        "second": "Second premium advantage",
+        "third": "Third advantage"
+      },
+      "button": "Get Started"
+    },
+    "annual": {
+      "title": "Annual",
+      "priceLabel": "/ Month",
+      "price": "15",
+      "discountApplied": "1 Discount applied",
+      "originalPrice": "BILLED YEARLY",
+      "discountedPrice": "$190",
+      "advantages": {
+        "first": "First premium advantage",
+        "second": "Second premium advantage",
+        "third": "Third advantage",
+        "fourth": "Fourth organizations advantage"
+      },
+      "button": "Get Started"
+    },
+    "free": {
+      "title": "Free",
+      "price": "0",
+      "advantages": {
+        "first": "First premium advantage",
+        "second": "Second premium advantage",
+        "third": "Third advantage"
+      },
+      "button": "Start Plan"
+    }
+  },
+  "contact": {
+    "title": "Get in touch",
+    "subtitle": "Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!",
+    "placeholders": {
+      "name": "Name",
+      "email": "Email",
+      "number": "Number",
+      "subject": "Subject",
+      "message": "Message"
+    },
+    "submitButtonText": "Submit",
+    "contactDetails": {
+      "phone": ["0045939863784", "+004389478327"],
+      "email": ["yourmail@gmail.com", "admin@yourwebsite.com"],
+      "address": "John's House, 13/5 Road, Sidney, United States of America"
+    }
+  },
+  "footer": {
+    "home": "Home",
+    "features": "Features",
+    "portfolio": "Portfolio",
+    "team": "Team",
+    "pricing": "Pricing",
+    "contact": "Contact Us",
+    "copyRight": "Copyright © Vlad | All rights reserved"
+  }
+
+}
+

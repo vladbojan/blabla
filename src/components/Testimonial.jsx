@@ -9,7 +9,11 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import { useLanguage } from '../../context/LanguageContext';
+
 const TestimonialCarousel = () => {
+    const { translations } = useLanguage();
+
     useEffect(() => {
         const script = document.createElement('script');
         script.src = 'https://unpkg.com/swiper/swiper-bundle.min.js';
@@ -24,40 +28,39 @@ const TestimonialCarousel = () => {
     const testimonials = [
         {
             avatar: 'assets/team/man.png',
-            text: 'Apostol Si Asociat II has been instrumental in transforming our business operations. Their software solutions are not just innovative but also seamlessly integrate with our existing systems.',
-            name: 'John Doe',
-            position: 'Product Designer',
-            logo: '/assets/logo.png'
-        },
-        {
-            avatar: 'assets/team/ali.png',
-            text: 'We\'ve been partnering with Apostol Si Asociat II for several years now, and their commitment to quality and excellence has never wavered. ',
-            name: 'John Doe',
-            position: 'Product Designer',
-            logo: '/assets/logo.png'
-        },
-        {
-            avatar: 'assets/team/aiman.png',
-            text: 'Apostol Si Asociat II sets the bar high when it comes to software development. Their solutions are not only robust and reliable but also tailored to meet our specific business needs.',
+            text: translations.testimonial.testimonial1,
             name: 'John Doe',
             position: 'Product Designer',
             logo: '/assets/logo.png'
         },
         {
             avatar: 'assets/team/man.png',
-            text: 'Choosing Apostol Si Asociat II as our software provider was one of the best decisions we made for our business. ',
+            text: translations.testimonial.testimonial2,
             name: 'John Doe',
             position: 'Product Designer',
             logo: '/assets/logo.png'
         },
         {
-            avatar: 'assets/team/ali.png',
-            text: 'Working with Apostol Si Asociat II has been a game-changer for our organization. Their software solutions have not only simplified our workflows but also significantly reduced our operational costs. ',
+            avatar: 'assets/team/man.png',
+            text: translations.testimonial.testimonial3,
             name: 'John Doe',
             position: 'Product Designer',
             logo: '/assets/logo.png'
         },
-
+        {
+            avatar: 'assets/team/man.png',
+            text: translations.testimonial.testimonial4,
+            name: 'John Doe',
+            position: 'Product Designer',
+            logo: '/assets/logo.png'
+        },
+        {
+            avatar: 'assets/team/man.png',
+            text: translations.testimonial.testimonial5,
+            name: 'John Doe',
+            position: 'Product Designer',
+            logo: '/assets/logo.png'
+        },
     ];
 
     return (
@@ -66,7 +69,7 @@ const TestimonialCarousel = () => {
                 data-aos="fade-down"
                 data-aos-offset="200"
                 data-aos-easing="ease-in-out">
-                What's our customers say
+                {translations.testimonial.title}
             </h2>
             <Swiper
                 modules={[Navigation, Pagination, Scrollbar, A11y]}

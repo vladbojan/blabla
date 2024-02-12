@@ -1,69 +1,26 @@
+"use client"
 import React from 'react';
 import 'aos/dist/aos.css';
+import {useLanguage} from "../../context/LanguageContext";
+
 const RecentWork = () => {
+    const { translations } = useLanguage(); // Use the language context hook to access translations
+
     // Array of objects containing data for each recent work
-    const recentWorksData = [
-        {
-            imageUrl: 'assets/projects/identity.png',
-            title: 'Brand Identity Revamp',
-            description: 'Refreshing brand elements for a modern appeal,\n' +
-                'Logo redesign, color palette refinement, and cohesive visual identity,\n' +
-                'Elevate brand perception and recognition in the market.'
-        },
-        {
-            imageUrl: 'assets/projects/ecommerce.png',
-            title: 'E-commerce Website Optimization',
-            description: 'Enhancing user experience and conversion rates,\n' +
-                'Implementing responsive design, improving site speed, and streamlining checkout process,\n' +
-                'Boost online sales and customer satisfaction.'
-        },
-        {
-            imageUrl: 'assets/projects/content.png',
-            title: 'Content Strategy Overhaul',
-            description: 'Crafting engaging content aligned with target audience needs,\n' +
-                'Conducting content audit, developing editorial calendar, and optimizing SEO,\n' +
-                'Increase website traffic and brand authority.'
-        },
-        {
-            imageUrl: 'assets/projects/social.png',
-            title: 'Social Media Marketing Campaign',
-            description: 'Creating impactful social media presence across platforms,\n' +
-                'Developing tailored content, managing ads, and fostering community engagement,\n' +
-                'Grow brand awareness and customer engagement.'
-        },
-        {
-            imageUrl: 'assets/projects/mobile.png',
-            title: 'Mobile App Development',
-            description: 'Building intuitive and feature-rich mobile application,\n' +
-                'User interface design, backend development, and rigorous testing,\n' +
-                'Deliver seamless mobile experience to enhance customer engagement.'
-        },
-        {
-            imageUrl: 'assets/projects/data.png',
-            title: 'Data Analysis and Visualization',
-            description: 'Extracting insights from complex datasets,\n' +
-                'Utilizing tools like Python, Tableau, and Excel for data analysis and visualization,\n' +
-                'Empower decision-making and drive business growth with data-driven strategies.'
-        }
-    ];
+    const recentWorksData = translations.recentWorks.works;
 
     return (
         <>
-            <div className="py-12" id={"portfolio"}>
+            <div className="py-12" id="portfolio">
                 <div className="xl:container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
                     <div className="mb-12 space-y-2 text-center"
                          data-aos="fade-down"
                          data-aos-offset="200"
                          data-aos-easing="ease-in-out">
-                        <h2 className="text-3xl font-bold text-gray-800 md:text-4xl dark:text-white">Recent Works</h2>
+                        <h2 className="text-3xl font-bold text-gray-800 md:text-4xl dark:text-white">{translations.recentWorks.title}</h2>
                         <p className="lg:mx-auto lg:w-6/12 text-gray-600 dark:text-gray-300">
-                            Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!
+                            {translations.recentWorks.description}
                         </p>
-                    </div>
-                    <div className={"w-full flex justify-end my-2"}>
-                        <svg width="110" height="72" viewBox="0 0 110 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M110 54.7589C110 85.0014 85.3757 66.2583 55 66.2583C24.6243 66.2583 0 85.0014 0 54.7589C0 24.5164 24.6243 0 55 0C85.3757 0 110 24.5164 110 54.7589Z" fill="#EBF4FF"></path>
-                        </svg>
                     </div>
                     <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                         {/* Map over the recentWorksData array to render each recent work dynamically */}
@@ -94,7 +51,7 @@ const RecentWork = () => {
                             </div>
                         ))}
                     </div>
-                    <div className={"w-full flex justify-start my-2"}>
+                    <div className="w-full flex justify-start my-2">
                         <svg width="110" height="72" viewBox="0 0 110 72" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M110 54.7589C110 85.0014 85.3757 66.2583 55 66.2583C24.6243 66.2583 0 85.0014 0 54.7589C0 24.5164 24.6243 0 55 0C85.3757 0 110 24.5164 110 54.7589Z" fill="#EBF4FF"></path>
                         </svg>

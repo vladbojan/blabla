@@ -7,9 +7,13 @@ import Team from "@/components/Team";
 import Testimonial from "@/components/Testimonial";
 import Contact from "@/components/Contact";
 import Customer from "@/components/Customer";
+import Head from "next/head";
 export default function Home() {
     return (
         <>
+            <Head>
+                <title>Vlad | Software Agency</title>
+            </Head>
             <Hero/>
             <CompanyJobs/>
             <Features/>

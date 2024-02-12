@@ -12,32 +12,20 @@ const LanguageSwitcher = () => {
 
     return (
         <div className="relative">
-            <div>
                 <button
                     onClick={() => setIsOpen(!isOpen)}
                     type="button"
-                    className="flex bg-blue-400 justify-center rounded-full shadow-sm py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50"
+                    className="flex justify-center rounded-full shadow-sm py-2 text-sm font-medium text-gray-700"
                     id="language-menu"
                     aria-expanded="true"
                     aria-haspopup="true"
                 >
-                    {/* Display the flag based on the current language */}
                     {language === 'en' ? (
                         <img src="/assets/flag/uk.png" alt="English Flag" className="w-6 h-6 rounded-full mr-2" />
                     ) : (
                         <img src="/assets/flag/romania.png" alt="Romanian Flag" className="w-6 h-6 rounded-full mr-2" />
                     )}
-                    <svg
-                        className="-mr-1 ml-2 h-5 w-5"
-                        xmlns="http://www.w3.org/2000/svg"
-                        viewBox="0 0 20 20"
-                        fill="currentColor"
-                        aria-hidden="true"
-                    >
-                        <path fillRule="evenodd" d="M10 3l-7 7m0 0l7 7m-7-7h14" />
-                    </svg>
                 </button>
-            </div>
 
             {isOpen && (
                 <div

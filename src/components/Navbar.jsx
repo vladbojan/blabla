@@ -59,7 +59,9 @@ const Navbar = () => {
                     <button onClick={() => scrollToSection('team')} className="text-gray-900 hover:text-blue-400">{translations.navbar.team}</button>
                     <button onClick={() => scrollToSection('pricing')} className="text-gray-900 hover:text-blue-400">{translations.navbar.pricing}</button>
                     <button onClick={() => scrollToSection('contact')} className="text-gray-900 hover:text-blue-400">{translations.navbar.contact}</button>
-                    <LanguageSwitcher/>
+                    <div className={"w-full flex justify-center items-center"}>
+                        <LanguageSwitcher/>
+                    </div>
                 </div>
 
             </div>

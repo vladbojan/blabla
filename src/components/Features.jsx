@@ -1,6 +1,6 @@
 "use client"
 import React from 'react';
-import {SiBisecthosting, SiJirasoftware} from "react-icons/si";
+import {SiBisecthosting, SiJirasoftware, SiLinkedin} from "react-icons/si";
 import {LiaConnectdevelop} from "react-icons/lia";
 import 'aos/dist/aos.css';
 import {useLanguage} from "../../context/LanguageContext";
@@ -44,6 +44,22 @@ const Features = () => {
                                          data-aos-offset="130"
                                          data-aos-easing="ease-in-out">
                                         <h4 className="font-semibold text-lg text-gray-700 dark:text-indigo-300">
+                                            {translations.features.hostingMigration.title}
+                                        </h4>
+                                        <p className="text-gray-500 dark:text-gray-400">
+                                            {translations.features.hostingMigration.description}
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="pt-4 flex gap-4 md:items-center"
+                                     data-aos="fade-right"
+                                     data-aos-offset="170"
+                                     data-aos-easing="ease-in-out">
+                                    <div className="w-12 h-12 flex gap-4  flex  justify-center items-center rounded-full bg-gray-300 dark:bg-teal-900/20">
+                                        <SiBisecthosting  className={"w-6 h-6 text-blue-400"} />
+                                    </div>
+                                    <div className="w-5/6">
+                                        <h4 className="font-semibold text-lg text-gray-700 dark:text-teal-300">
                                             {translations.features.softwareSolutions.title}
                                         </h4>
                                         <p className="text-gray-500 dark:text-gray-400">
@@ -72,14 +88,14 @@ const Features = () => {
                                      data-aos-offset="170"
                                      data-aos-easing="ease-in-out">
                                     <div className="w-12 h-12 flex gap-4  flex  justify-center items-center rounded-full bg-gray-300 dark:bg-teal-900/20">
-                                        <SiBisecthosting  className={"w-6 h-6 text-blue-400"} />
+                                        <SiLinkedin className={"w-6 h-6 text-blue-400"} />
                                     </div>
                                     <div className="w-5/6">
                                         <h4 className="font-semibold text-lg text-gray-700 dark:text-teal-300">
-                                            {translations.features.hostingMigration.description}
+                                            {translations.features.humanResources.title}
                                         </h4>
                                         <p className="text-gray-500 dark:text-gray-400">
-                                            {translations.features.hostingMigration.description}
+                                            {translations.features.humanResources.description}
                                         </p>
                                     </div>
                                 </div>

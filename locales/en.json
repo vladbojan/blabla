@@ -21,7 +21,7 @@
     "companyJobsTitle": "Services",
     "companyJobsDescription": "The future of design begins its journey right here at APOSTOL SI ASOCIATII, where innovation meets creativity to shape tomorrow's digital landscape.",
     "graphicsDesign": {
-      "title": "Graphics Design",
+      "title": "Immigration Services",
       "description": "Unlock your creativity with stunning visuals,\nWhere imagination meets pixels,\nCrafting designs that leave lasting impressions."
     },
     "printDesign": {
@@ -46,19 +46,23 @@
     }
   },
   "features": {
-    "title": "The future of designing starts here",
-    "description": "The future of design begins its journey right here at APOSTOL SI ASOCIATII, where innovation meets creativity to shape tomorrow's digital landscape.",
+    "title": "Empowering Your Journey to New Beginnings",
+    "description": "At APOSTOL si ASOCIATII, we understand that the journey to a new country is filled with hopes, dreams, and aspirations. It's more than just a move; it's the start of a new chapter in life. Our mission is to make your transition as smooth and stress-free as possible. With years of expertise and a compassionate approach, we're not just your immigration consultants; we're your partners in paving the path to your future.",
     "softwareSolutions": {
-      "title": "Software solutions",
-      "description": "Tailored software solutions | Expert consulting"
+      "title": "Employer-Sponsored Visas",
+      "description": "Work Permits | Visa Assistance | Residence Permits | Secondment Approvals | Change of Employer | Change of Position"
     },
     "coreDevelopment": {
-      "title": "Core Development",
-      "description": "Agile development methodology | Customer-centric"
+      "title": "Visa Assistance",
+      "description": "Work Visa | Business | Travel | Family Reunification | Volunteering"
     },
     "hostingMigration": {
-      "title": "Hosting & Migration",
-      "description": "Seamless integration capabilities | Proven track record"
+      "title": "Building Teams",
+      "description": "Software Development | IT Consultancy | Energy | Services | Construction | Finance"
+    },
+    "humanResources": {
+      "title": "Human Resources",
+      "description": "Recruitment | Staffing | Consultancy"
     }
   },
   "customerHeader": {
@@ -67,50 +71,50 @@
   },
   "trustedCustomers": [
     {
-      "name": "Floraria Iris",
-      "description": "Innovating Success Through Trusted Collaborations. Empowering Businesses Worldwide with Excellence.",
-      "link": "https://www.florariairis.ro/",
-      "image": "/assets/companies/Floraria.png"
+      "name": "JDS Software Services",
+      "description": "IT Consultancy, recruitment services for the European energy market in partnership with GE Vernova",
+      "link": "https://www.gevernova.com/",
+      "image": "/assets/companies/jds.png"
     },
     {
-      "name": "Digital Innovators Inc",
-      "description": "Innovating Success Through Trusted Collaborations. Empowering Businesses Worldwide with Excellence.",
+      "name": "Asia Continental Group",
+      "description": "HR Services and Business Consultancy",
       "link": "https://acgbd.com/",
       "image": "/assets/companies/acgbd.png"
     },
     {
-      "name": "Digital Innovators Inc",
-      "description": "Innovating Success Through Trusted Collaborations. Empowering Businesses Worldwide with Excellence.",
-      "link": "https://acgbd.com/",
-      "image": "/assets/companies/acgbd.png"
+      "name": "SIQSESS",
+      "description": "IT Consultancy, Recruitment services, Immigration Services",
+      "link": "https://www.siqsess.com/#/home",
+      "image": "/assets/companies/siqces.png"
     },
     {
-      "name": "WebTech Solutions",
-      "description": "Innovating Success Through Trusted Collaborations. Empowering Businesses Worldwide with Excellence.",
+      "name": "EVO House",
+      "description": "HR Services and Immigration Services.",
       "link": "https://evohouse.eu/",
       "image": "/assets/companies/evohouse.png"
     },
     {
-      "name": "Creative Minds Ltd",
-      "description": "Innovating Success Through Trusted Collaborations. Empowering Businesses Worldwide with Excellence.",
+      "name": "Romstal",
+      "description": "HR Services and Immigration Services.",
       "link": "https://www.romstal.ro/",
       "image": "/assets/companies/romastal.png"
     },
     {
-      "name": "Creative Minds Ltd",
-      "description": "Innovating Success Through Trusted Collaborations. Empowering Businesses Worldwide with Excellence.",
-      "link": "https://www.siqsess.com/#/home",
-      "image": "/assets/companies/siqces.png"
+      "name": "Floraria Iris",
+      "description": "HR Services and Immigration Services.",
+      "link": "https://www.florariairis.ro/",
+      "image": "/assets/companies/Floraria.png"
     }
   ],
   "recentWorks": {
-    "title": "Recent Works",
-    "description": "Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!",
+    "title": "Recent Projects",
+    "description": "With over 20 years experience in HR and Recruitment Services and over 16 years experience in IT Consultancy, our team is ready to help you achieve your full potential.",
     "works": [
       {
-        "title": "Brand Identity Revamp",
-        "description": "Refreshing brand elements for a modern appeal,\nLogo redesign, color palette refinement, and cohesive visual identity,\nElevate brand perception and recognition in the market.",
-        "imageUrl": "assets/projects/identity.png"
+        "title": "Designing new Applications",
+        "description": "Creating safe, secure, reliable and scalable solutions for the Energy Market with industry leading partners.",
+        "imageUrl": "assets/projects/content.png"
       },
       {
         "title": "E-commerce Website Optimization",
@@ -118,24 +122,24 @@
         "imageUrl": "assets/projects/ecommerce.png"
       },
       {
-        "title": "Content Strategy Overhaul",
-        "description": "Crafting engaging content aligned with target audience needs,\nConducting content audit, developing editorial calendar, and optimizing SEO,\nIncrease website traffic and brand authority.",
-        "imageUrl": "assets/projects/content.png"
+        "title": "HR and Recruitment",
+        "description": "Recruiting the best talent and helping you navigate establish stable processes.",
+        "imageUrl": "assets/projects/identity.png"
       },
       {
-        "title": "Social Media Marketing Campaign",
-        "description": "Creating impactful social media presence across platforms,\nDeveloping tailored content, managing ads, and fostering community engagement,\nGrow brand awareness and customer engagement.",
+        "title": "Immigration Services",
+        "description": "Helping you and your talent get the required visas\nApplying for your work permits\nHelping you build a diverse and dynamic team.",
         "imageUrl": "assets/projects/social.png"
       },
       {
-        "title": "Mobile App Development",
-        "description": "Building intuitive and feature-rich mobile application,\nUser interface design, backend development, and rigorous testing,\nDeliver seamless mobile experience to enhance customer engagement.",
-        "imageUrl": "assets/projects/mobile.png"
+        "title": "Data Analysis and Visualization",
+        "description": "Extracting insights from complex datasets,\nEmpower decision-making and drive business growth with data-driven strategies.",
+        "imageUrl": "assets/projects/data.png"
       },
       {
-        "title": "Data Analysis and Visualization",
-        "description": "Extracting insights from complex datasets,\nUtilizing tools like Python, Tableau, and Excel for data analysis and visualization,\nEmpower decision-making and drive business growth with data-driven strategies.",
-        "imageUrl": "assets/projects/data.png"
+        "title": "Brand Identity Revamp",
+        "description": "Refreshing brand elements for a modern appeal,\nLogo redesign, color palette refinement, and cohesive visual identity,\nElevate brand perception and recognition in the market.",
+        "imageUrl": "assets/projects/mobile.png"
       }
     ]
   },
@@ -189,7 +193,7 @@
   },
   "contact": {
     "title": "Get in touch",
-    "subtitle": "Stop wasting time and money designing and managing a website that doesn’t get results. Happiness guaranteed!",
+    "subtitle": "We're here to help and answer any question you might have. We look forward to hearing from you!",
     "placeholders": {
       "name": "Name",
       "email": "Email",
@@ -199,9 +203,9 @@
     },
     "submitButtonText": "Submit",
     "contactDetails": {
-      "phone": ["0045939863784", "+004389478327"],
-      "email": ["yourmail@gmail.com", "admin@yourwebsite.com"],
-      "address": "John's House, 13/5 Road, Sidney, United States of America"
+      "phone": ["0769 770 044", "+0040 769 770 044"],
+      "email": ["apostolsiasociatii@gmail.com", "office@apostolsiasociatii.eu"],
+      "address": ["BUCURESTI", "B-DUL CORNELIU COPOSU NR. 7" , "BL. 104, SC 3, ET. 5, AP. 77" , "INTERFON 77"]
     }
   },
   "footer": {
@@ -211,7 +215,7 @@
     "team": "Team",
     "pricing": "Pricing",
     "contact": "Contact Us",
-    "copyRight": "Copyright © Vlad | All rights reserved"
+    "copyRight": "Copyright © APOSTOL si ASOCIATII | All rights reserved"
   }
 
 }

@@ -20,8 +20,8 @@ export default function Home() {
             <Customer/>
             <RecentWork/>
             <Team/>
-            <Testimonial/>
-            <Pricing/>
+      {/*       <Testimonial/>
+            <Pricing/> */}
             <Contact/>
         </>
     )

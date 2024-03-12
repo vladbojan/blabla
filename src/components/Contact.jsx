@@ -88,7 +88,9 @@ const Contact = () => {
                                          data-aos-easing="ease-in-out">
                                         <i className="lni lni-map-marker text-gray-400"></i>
                                         <div className="ml-4">
-                                            <p className="text-sm">{translations.contact.contactDetails.address}</p>
+                                            {translations.contact.contactDetails.address.map((email, index) => (
+                                                <p key={index} className="text-sm">{email}</p>
+                                            ))}
                                         </div>
                                     </div>
                                 </div>

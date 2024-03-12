@@ -97,26 +97,26 @@ const Hero = () => {
                             className="relative flex h-14 w-52 items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-sky-50 before:border before:border-sky-500 dark:before:border-gray-600 dark:before:bg-gray-700 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95"
                             onClick={openVideoModal}
                         >
-        <span
-            className="relative text-base flex items-center justify-evenly font-semibold text-sky-600 dark:text-white">
-          <span className="text-blue-400">{translations.hero.cta1}</span>
-          <span className="ms-3">
-            <BsFillPlayCircleFill color="#007cff" style={{width: '25px', height: '25px'}}/>
-          </span>
-        </span>
+                            <span
+                                className="relative text-base flex items-center justify-evenly font-semibold text-sky-600 dark:text-white">
+                            <span className="text-blue-400">{translations.hero.cta1}</span>
+                            <span className="ms-3">
+                                <BsFillPlayCircleFill color="#007cff" style={{width: '25px', height: '25px'}}/>
+                            </span>
+                            </span>
                         </button>
 
                         <VideoModal isOpen={videoModalOpen} onClose={closeVideoModal}/>
                         <button
                             className="relative h-14 w-52 items-center justify-center px-6 bg-blue-500 rounded-full"
                             onClick={() => {
-                                window.location.href = 'mailto:vlad.bojan@jds-europe.com';
+                                window.location.href = 'mailto:office@apostolsiasociatii.eu';
                             }}
                         >
-  <span className="relative text-base flex items-center justify-evenly font-semibold text-white">
-    <span>{translations.hero.cta2}</span>
-    <span><MdOutlineCallEnd color={"white"} style={{width: "25px", height: "25px"}}/></span>
-  </span>
+                            <span className="relative text-base flex items-center justify-evenly font-semibold text-white">
+                                <span>{translations.hero.cta2}</span>
+                                <span><MdOutlineCallEnd color={"white"} style={{width: "25px", height: "25px"}}/></span>
+                            </span>
                         </button>
 
                     </div>

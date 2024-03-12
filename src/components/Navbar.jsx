@@ -83,9 +83,10 @@ const Navbar = () => {
                     <button onClick={() => scrollToSection('customer')} className={`text-gray-900 ${activeSection === 'customer' ? 'font-bold' : 'hover:text-blue-400'}`}>{translations.navbar.customer}</button>
                     <button onClick={() => scrollToSection('portfolio')} className={`text-gray-900 ${activeSection === 'portfolio' ? 'font-bold' : 'hover:text-blue-400'}`}>{translations.navbar.portfolio}</button>
                     <button onClick={() => scrollToSection('team')} className={`text-gray-900 ${activeSection === 'team' ? 'font-bold' : 'hover:text-blue-400'}`}>{translations.navbar.team}</button>
-                    <button onClick={() => scrollToSection('testimonial')} className={`text-gray-900 ${activeSection === 'testimonial' ? 'font-bold' : 'hover:text-blue-400'}`}>{translations.navbar.testimonial}</button>
+                    {/* <button onClick={() => scrollToSection('testimonial')} className={`text-gray-900 ${activeSection === 'testimonial' ? 'font-bold' : 'hover:text-blue-400'}`}>{translations.navbar.testimonial}</button>
                     <button onClick={() => scrollToSection('pricing')} className={`text-gray-900 ${activeSection === 'pricing' ? 'font-bold' : 'hover:text-blue-400'}`}>{translations.navbar.pricing}</button>
-                    <button onClick={() => scrollToSection('contact')} className={`text-gray-900 ${activeSection === 'contact' ? 'font-bold' : 'hover:text-blue-400'}`}>{translations.navbar.contact}</button>
+                     */}
+                     <button onClick={() => scrollToSection('contact')} className={`text-gray-900 ${activeSection === 'contact' ? 'font-bold' : 'hover:text-blue-400'}`}>{translations.navbar.contact}</button>
                     <LanguageSwitcher />
                 </div>
                 <div className="md:hidden flex items-center">
@@ -104,7 +105,8 @@ const Navbar = () => {
                     <button onClick={() => scrollToSection('features')} className={`text-gray-900 ${activeSection === 'features' ? 'font-bold' : 'hover:text-blue-400'}`}>{translations.navbar.features}</button>
                     <button onClick={() => scrollToSection('portfolio')} className={`text-gray-900 ${activeSection === 'portfolio' ? 'font-bold' : 'hover:text-blue-400'}`}>{translations.navbar.portfolio}</button>
                     <button onClick={() => scrollToSection('team')} className={`text-gray-900 ${activeSection === 'team' ? 'font-bold' : 'hover:text-blue-400'}`}>{translations.navbar.team}</button>
-                    <button onClick={() => scrollToSection('pricing')} className={`text-gray-900 ${activeSection === 'pricing' ? 'font-bold' : 'hover:text-blue-400'}`}>{translations.navbar.pricing}</button>
+                    {/* <button onClick={() => scrollToSection('pricing')} className={`text-gray-900 ${activeSection === 'pricing' ? 'font-bold' : 'hover:text-blue-400'}`}>{translations.navbar.pricing}</button>
+                     */}
                     <button onClick={() => scrollToSection('contact')} className={`text-gray-900 ${activeSection === 'contact' ? 'font-bold' : 'hover:text-blue-400'}`}>{translations.navbar.contact}</button>
                     <div className={"w-full flex justify-center items-center"}>
                         <LanguageSwitcher />

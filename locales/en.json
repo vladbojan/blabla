@@ -15,35 +15,74 @@
     "heading2": "SI ASOCIATII",
     "cta1": "Watch Demo",
     "cta2": "Book a Call",
-    "description": "Our company boasts a highly skilled team of professionals, each possessing a wealth of expertise and a passion for innovation. We take pride in our talented team, whose diverse backgrounds and collaborative spirit drive the success of every project we undertake."
+    "description": "Our wealth of experience allows us to provide value to your company regardless of the stage your business is in. With a diversified portfolio portfolio including prestigious companies that have found in APOSTOL si ASOCIATII a reliable partner, always ready to offer innovative solutions to any problem that might appear."
   },
+  
   "companyJobs": {
     "companyJobsTitle": "Services",
-    "companyJobsDescription": "The future of design begins its journey right here at APOSTOL SI ASOCIATII, where innovation meets creativity to shape tomorrow's digital landscape.",
-    "graphicsDesign": {
-      "title": "Immigration Services",
-      "description": "Unlock your creativity with stunning visuals,\nWhere imagination meets pixels,\nCrafting designs that leave lasting impressions."
-    },
-    "printDesign": {
-      "title": "Print Design",
-      "description": "Bringing ideas to life on tangible canvas,\nFrom brochures to posters, our designs enchant,\nCaptivate your audience with printed perfection."
-    },
-    "businessAnalysis": {
-      "title": "Business Analysis",
-      "description": "Deciphering data to drive strategic decisions,\nUnraveling insights for organizational precision,\nEmpowering businesses with analytical vision."
-    },
-    "webDevelopment": {
-      "title": "Web Development",
-      "description": "Building digital landscapes, pixel by pixel,\nTransforming concepts into interactive portals,\nCrafting the virtual realm with code and creativity."
-    },
-    "bestSecurity": {
-      "title": "Best Security",
-      "description": "Shielding your digital fortress from cyber threats,\nWith encryption strong, your data never frets,\nFortifying defenses to keep intruders at bay."
-    },
-    "webDesign": {
-      "title": "Web Design",
-      "description": "Crafting digital experiences with finesse,\nWhere aesthetics meet seamless user access,\nElevating online presence with design prowess."
-    }
+    "companyJobsDescription": "APOSTOL and ASSOCIATES is a human resources company specialized in personnel recruitment services. We support your recruitment and selection activity through psychological evaluation, job fit, and integrity testing – polygraph testing. Have you noticed that 90% of candidates for a job do not meet the job requirements or have intentionally provided incorrect information in their curriculum vitae?",
+    "jobs": [
+      {
+        "key": "immigration",
+        "title": "Immigration Services",
+        "description": "Obtaining the right to work in Romania - including obtaining visas from Romanian consular offices abroad\nEmployment and secondment permits for foreigners\nEmployment permits for highly skilled workers\nHighly skilled workers and Blue Card"
+      },
+      {
+        "key": "immigrationCons",
+        "title": "Immigration Consulting",
+        "description": "Legal consultancy regarding the taxation of foreign individuals and companies\nLegal advice in preparing documents for requests necessary for all types of visas: translations, legalizations, authentications, Hague Apostille\nLegal representation in front of Romanian authorities involved in the immigration process to Romania."
+      },
+      {
+        "key": "immigrationFam",
+        "title": "Immigration Services for Individuals",
+        "description": "Registration of residence for EU/EEA/CH citizens\nFamily reunification for EU and non-EU citizens\nFamily reunification for Romanian citizens\nSocial rights of foreigners in Romania"
+      },
+      {
+        "key": "graphicsDesign",
+        "title": "Personnel Selection and Recruitment",
+        "description": "One of the least exploited ways to increase productivity is improving human performance. We propose 'Professional Evaluation of Employees'! We will test the aptitude requirements, personality requirements, and occupational interests of your employees for each position."
+      },
+      {
+        "key": "printDesign",
+        "title": "Polygraph Examination",
+        "description": "The forensic psychology office (Polygraph testing - lie detector) supports your company with this exclusive method used by renowned companies in the country and abroad."
+      },
+      {
+        "key": "webDesign",
+        "title": "Personnel Leasing",
+        "description": "Seasonal hiring\nThe need to temporarily replace certain employees\nSpecial projects that are carried out over a specific period of time;\nThe fear that the business would suffer in terms of activity reduction;\nProviding the necessary staff over the existing staff scheme;\nAvoiding problems related to personnel administration and legal responsibilities;\nBringing in new labor, with the possibility of rotating more personnel and choosing the most productive and motivated."
+      },
+      {
+        "key": "hrAdmin",
+        "title": "Personnel Administration",
+        "description": "We will analyze, evaluate, remedy, and induce your HR activity onto a platform with quality management.\nRegardless of the number of employees, you will have perfect files, without any flaw. We will apply quality management procedures, thus giving you extra security in front of inspection bodies.\nWe will prepare the documentation necessary for the smooth running of your company's HR activity.\nApostol and Associates can represent you in case of Labor Inspection controls."
+      },
+      {
+        "key": "hrPsih",
+        "title": "Psychological Services",
+        "description": "APOSTOL AND ASSOCIATES offers highly complex personalized psychological services in specialties such as work and organizational psychology, clinical psychology, psychology applied in the field of national security."
+      },
+      {
+        "key": "hrPsihWork",
+        "title": "Work and Organizational Psychology",
+        "description": "APOSTOL AND ASSOCIATES offers specialized assistance in all processes that underpin the healthy functioning of the organization: recruiting and selecting the most suitable employees in accordance with personality traits and job requirements, diagnosing,\nimproving and developing processes, procedures and internal policies, evaluating the organizational climate and professional performances."
+      },
+      {
+        "key": "hrAnalysis",
+        "title": "Job Analysis",
+        "description": "Optimization of the entry-exit circuit of employees. By analyzing your company's internal documents and being aware of current priorities, we can implement a series of elements that will favor the retention rate and motivation of employees."
+      },
+      {
+        "key": "hrDiagnosis",
+        "title": "Organizational Diagnosis",
+        "description": "Organizational diagnosis is an analytical endeavor to identify the concrete reality of the organization in question, involving the use of complementary means of analysis and documentation. This activity follows a personalized diagnostic plan, and the diagnosis is not purely evaluative, it is not an evaluation process, but one of becoming aware of the deep elements that underlie the functioning of an organization."
+      },
+      {
+        "key": "hrIntervention",
+        "title": "Company Intervention and Recalibration",
+        "description": "In any company, there is the possibility of critical incidents occurring that can destabilize the harmony of the workplace and deteriorate the internal bonds and dynamics of the work collective.\nThrough our services, you can avoid absenteeism, presenteeism, staff turnover, bullying, mobbing, and burnout."
+      }
+    ]
   },
   "features": {
     "title": "Empowering Your Journey to New Beginnings",
@@ -71,75 +110,99 @@
   },
   "trustedCustomers": [
     {
-      "name": "JDS Software Services",
-      "description": "IT Consultancy, recruitment services for the European energy market in partnership with GE Vernova",
-      "link": "https://www.gevernova.com/",
-      "image": "/assets/companies/jds.png"
-    },
-    {
-      "name": "Asia Continental Group",
-      "description": "HR Services and Business Consultancy",
-      "link": "https://acgbd.com/",
-      "image": "/assets/companies/acgbd.png"
-    },
-    {
-      "name": "SIQSESS",
-      "description": "IT Consultancy, Recruitment services, Immigration Services",
+      "name": "Mazars",
+      "description": "Mazars is a leading international audit, tax, aconsultancy and advisory firm.",
       "link": "https://www.siqsess.com/#/home",
       "image": "/assets/companies/siqces.png"
     },
     {
+      "name": "Silva Termosystems",
+      "description": "Manufacturer of double-glazed doors and windows systems, roll-ups, and insect screens.",
+      "link": "https://www.facebook.com/silva.termosystems/?locale=en_US",
+      "image": "/assets/companies/silvats.png"
+    },
+    {
       "name": "EVO House",
-      "description": "HR Services and Immigration Services.",
+      "description": "NGO that promotes sustainable architecture and the buildings of the future.",
       "link": "https://evohouse.eu/",
       "image": "/assets/companies/evohouse.png"
     },
     {
-      "name": "Romstal",
-      "description": "HR Services and Immigration Services.",
-      "link": "https://www.romstal.ro/",
-      "image": "/assets/companies/romastal.png"
+      "name": "Tricomexim",
+      "description": "A Romanian company with extensive experience in producing and marketing individual protective equipment.",
+      "link": "https://www.tricomexim.ro/",
+      "image": "/assets/companies/tricomexim.png"
     },
     {
-      "name": "Floraria Iris",
-      "description": "HR Services and Immigration Services.",
-      "link": "https://www.florariairis.ro/",
-      "image": "/assets/companies/Floraria.png"
+      "name": "JDS Software Services",
+      "description": "Software development for the futures trading system in the North European energy market, in partnership with GE Vernova.",
+      "link": "https://www.jds-europe.com/",
+      "image": "/assets/companies/jds.png"
+    },
+    {
+      "name": "SIQSESS",
+      "description": "Multinational IT Services Company specializing in IoT, ER, Digital Twin, System Integration, Cloud Computing, Big data, AI, and ML.",
+      "link": "https://www.siqsess.com/#/home",
+      "image": "/assets/companies/siqces.png"
     }
   ],
   "recentWorks": {
     "title": "Recent Projects",
-    "description": "With over 20 years experience in HR and Recruitment Services and over 16 years experience in IT Consultancy, our team is ready to help you achieve your full potential.",
+    "description": "With over 20 years of experience in HR and over 16 in IT Consulting, our team is ready to help you reach your potential.",
     "works": [
       {
-        "title": "Designing new Applications",
-        "description": "Creating safe, secure, reliable and scalable solutions for the Energy Market with industry leading partners.",
-        "imageUrl": "assets/projects/content.png"
+        "key": "businessAnalysis",
+        "imageUrl": "assets/projects/content.png",
+        "title": "Integrity Test",
+        "description": "The main purpose of the integrity test is to identify potential vulnerabilities of individuals who are in the imminent hiring phase (~80% of situations) or in the period immediately following hiring (~20% of situations). The information presented by the candidate does not always reflect the true state of affairs. It is possible that the new employee may have one or more vulnerabilities that could negatively interfere with the nature and specifics of the activities carried out. Following such a polygraph examination, we establish the existence or non-existence of personal vulnerabilities and, at the same time, what is the degree of risk assumed by the employing company."
       },
       {
-        "title": "E-commerce Website Optimization",
-        "description": "Enhancing user experience and conversion rates,\nImplementing responsive design, improving site speed, and streamlining checkout process,\nBoost online sales and customer satisfaction.",
-        "imageUrl": "assets/projects/ecommerce.png"
+        "key": "webDevelopment",
+        "imageUrl": "assets/projects/content.png",
+        "title": "Preventive Polygraph Test",
+        "description": "Widely used in various fields of activity, the examination is repetitive at intervals of 3, 6, or 12 months, and the questions asked are constructed exclusively from the employee's sphere of activity. The purpose of the test is to establish whether the person examined has had honest conduct at their workplace in the interval between the previous examination and the current one. In case possible fraudulent actions are identified, administrative investigations will be arranged regarding the person / area of activity / deed committed / damage caused."
       },
       {
-        "title": "HR and Recruitment",
-        "description": "Recruiting the best talent and helping you navigate establish stable processes.",
-        "imageUrl": "assets/projects/identity.png"
+        "key": "bestSecurity",
+        "imageUrl": "assets/projects/content.png",
+        "title": "Thematic Polygraph Testing",
+        "description": "Represents a well-developed/formally structured procedure and aims to clarify the potential involvement or non-involvement of a person in a controversial event. It also establishes the form of participation (author, co-author, accomplice, instigator, concealer, etc.). The fee for an examination depends on the complexity of the case. The first case tested with a polygraph is free!"
       },
       {
-        "title": "Immigration Services",
-        "description": "Helping you and your talent get the required visas\nApplying for your work permits\nHelping you build a diverse and dynamic team.",
-        "imageUrl": "assets/projects/social.png"
+        "key": "hrEval",
+        "imageUrl": "assets/projects/content.png",
+        "title": "Psychological Evaluation in Employment Relationships",
+        "description": "We have partnerships with experts in the field of work psychology, directly applied to areas of activity.\nWork and organizational psychology: aims for collaboration with the occupational medicine sector in accordance with the law on safety and health at work. Psychological methods in this field are used for evaluation, selection, and psychological expertise at hiring/maintenance in position or for psychological endorsement, for diagnosis and organizational intervention, as well as for providing psychological consultancy for human resource management.\n"
       },
       {
-        "title": "Data Analysis and Visualization",
-        "description": "Extracting insights from complex datasets,\nEmpower decision-making and drive business growth with data-driven strategies.",
-        "imageUrl": "assets/projects/data.png"
+        "key": "hrEval",
+        "imageUrl": "assets/projects/content.png",
+        "title": "Transport Psychology",
+        "description": "Addresses employers whose activity involves transportation or individuals who wish to obtain their driving license, involving psychological testing of drivers. \nWithin transport psychology, we also conduct psychological testing for professional drivers/functions involved in road safety, for schooling, hiring, and maintaining positions.\n"
       },
       {
-        "title": "Brand Identity Revamp",
-        "description": "Refreshing brand elements for a modern appeal,\nLogo redesign, color palette refinement, and cohesive visual identity,\nElevate brand perception and recognition in the market.",
-        "imageUrl": "assets/projects/mobile.png"
+        "key": "hrEvalNatSec",
+        "imageUrl": "assets/projects/content.png",
+        "title": "Psychology Applied in National Security",
+        "description": "Especially addresses employers with personnel who need a gun permit, security and protection companies, or individuals wishing to obtain a gun permit and involves psychological gun permit testing. \nExistence of fear that the business would suffer in terms of activity reduction; \nCognitive-behavioral psychotherapy: for existential crisis situations, depression, anxiety, phobias, panic attacks; addictions, eating disorders; psychological evaluation/testing. \nThe test results are confidential.\n"
+      },
+      {
+        "key": "hrPermits",
+        "imageUrl": "assets/projects/content.png",
+        "title": "Consultations and Endorsements",
+        "description": "Psychological employment endorsement \nPsychological endorsement for decision-making/leadership positions \nPeriodic evaluation \nComplex psychological and integrity evaluation for public office positions within anti-fraud structures \nPsychological endorsement for INM contest (magistrate, prosecutor, judge) \nPsychological endorsement for contest – mediator, notary trainee, public servant \nEndorsement (psychological file) for employment contest \nPsychological endorsement for integrity inspector contest (A.N.I.), customs inspector \nPsychological exam for pharmacy assistant \nPsychological test for Romanian citizens who will carry out their professional activity abroad \nPsychological endorsement for electrician certification \nPsychological endorsement for forklift course \nPsychological endorsement for driving license categories A,B,C,CE,D \nPsychological endorsement for professional driver of domestic freight, passengers, taxi, instructor, ADR transport \nPsychological endorsement for gun permit \nPsychological endorsement for security agent certification \nPsychological endorsement for hiring in the Local Police \nPsychological counseling."
+      },
+      {
+        "key": "hrForeign",
+        "imageUrl": "assets/projects/content.png",
+        "title": "Services for Foreign Citizens",
+        "description": "Consultancy and assistance in obtaining all types of residence permits; \nShort stay invitations for the purpose of: visit, business, tourism; \nObtaining and extending a stable residence in Romania; \nExtending residence permits for work, studies, family reunification, business, volunteering, administrator, other purposes;\n"
+      },
+      {
+        "key": "hrCommunication",
+        "imageUrl": "assets/projects/content.png",
+        "title": "Intra and Interdepartmental Communication",
+        "description": "Inter and intra-department communication is an essential element within any company, and by streamlining and optimizing it, the harmonious progress of any firm can be ensured. We will adapt internal and external communication procedures based on changes at the organizational level and will implement new effective techniques throughout the company."
       }
     ]
   },
@@ -193,7 +256,11 @@
   },
   "contact": {
     "title": "Get in touch",
-    "subtitle": "We're here to help and answer any question you might have. We look forward to hearing from you!",
+    "subtitle": "You can share your documents by using the following QR codes",
+    "employer": "Enterprise: ",
+    "employee": "Employee: ",
+    "employerDesc": "Upload the employer's files.",
+    "employeeDesc": "Upload the employee's files.",
     "placeholders": {
       "name": "Name",
       "email": "Email",

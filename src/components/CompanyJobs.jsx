@@ -7,50 +7,7 @@ const CompanyJobs = () => {
     const { translations } = useLanguage();
 
     // Array of objects containing data for each card
-    const jobsData = [
-        {
-            key: 'graphicsDesign', // Unique key for each job
-            icon: '/assets/skills/graphic.png',
-            title: translations.companyJobs.graphicsDesign.title, // Access translated title
-            description: translations.companyJobs.graphicsDesign.description, // Access translated description
-            link: '#'
 
-        },
-        {
-            key: 'printDesign',
-            icon: '/assets/skills/print.png',
-            title: translations.companyJobs.printDesign.title, // Access translated title
-            description: translations.companyJobs.printDesign.description,
-            link: '#'
-        },
-        {
-            key: 'businessAnalysis',
-            icon: '/assets/skills/analytics.png',
-            title: translations.companyJobs.businessAnalysis.title, // Access translated title
-            description: translations.companyJobs.businessAnalysis.description,
-            link: '#'
-        },
-        {
-            key: 'webDevelopment',
-            icon: '/assets/skills/development.png',
-            title: translations.companyJobs.webDevelopment.title, // Access translated title
-            description: translations.companyJobs.webDevelopment.description,
-            link: '#'
-        },
-        {
-            icon: '/assets/skills/security.png',
-            title: translations.companyJobs.bestSecurity.title, // Access translated title
-            description: translations.companyJobs.bestSecurity.description,
-            link: '#'
-        },
-        {
-            key: 'Designing',
-            icon: '/assets/skills/desing.png',
-            title: translations.companyJobs.webDesign.title, // Access translated title
-            description: translations.companyJobs.webDesign.description,
-            link: '#'
-        }
-    ];
 
     return (
         <>
@@ -73,21 +30,21 @@ const CompanyJobs = () => {
                     </div>
                     <div className="grid gap-6 md:mx-auto md:w-8/12 lg:w-full lg:grid-cols-3">
                         {/* Map over the jobsData array to render each card dynamically */}
-                        {jobsData.map((job, index) => (
+                        {translations.companyJobs.jobs.map((job, index) => (
                             <div key={index} className="group space-y-6 border shadow-md border-gray-100 dark:border-gray-700 rounded-3xl bg-white dark:bg-gray-800 px-8 py-6 text-center shadow-2xl shadow-gray-600/10 dark:shadow-none"
                                  data-aos="fade-right"
                                  data-aos-offset={(index + 30) * 2}
                                  data-aos-easing="ease-in-out">
                                 <img
                                     className="mx-auto w-44"
-                                    src={job.icon}
+                                    src="/assets/skills/analytics.png"
                                     alt="illustration"
                                     loading="lazy"
                                 />
                                 <h3 className="text-2xl font-semibold text-gray-800 dark:text-white">
                                     {job.title}
                                 </h3>
-                                <p>
+                                <p style={{whiteSpace: "pre-wrap", textAlign:"left"}}>
                                     {job.description}
                                 </p>
                             </div>

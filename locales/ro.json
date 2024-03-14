@@ -14,35 +14,61 @@
     "heading2": "SI ASOCIATII",
     "cta1": "Urmărește demo-ul",
     "cta2": "Suntem aici",
-    "description": "Avem o echipă de profesioniști extrem de talentați, cu experiență bogată și pasiune pentru inovație. Spiritul de echipa și expertiza duc la succesul fiecărui proiect pe care îl abordăm."
+    "description": "Experiența ne recomandă indiferent de stadiul în care se află afacerea dumneavoastră, având în portofoliul nostru clienți alături de care am fost de la începuturile lor precum și firme mari, de prestigiu, care au găsit în APOSTOL și ASOCIATII un partener de încredere, serios și mereu pregătit să ofere soluții inovative cererilor lor."
   },
   "companyJobs": {
     "companyJobsTitle": "Servicii",
-    "companyJobsDescription": "Viitorul începe la APOSTOL SI ASOCIATII, unde inovația se întâlnește cu creativitatea.",
-    "graphicsDesign": {
-      "title": "Resurse umane",
-      "description": "Deblocarea creativității tale cu imagini uimitoare,\nUnde imaginația întâlnește pixelii,\nCrearea unor designuri care lasă impresii durabile."
+    "companyJobsDescription": "APOSTOL si ASOCIATII este o companie de resurse umane specializată în servicii de recrutare personal. Vă susținem activitatea de recrutare și selecție prin evaluarea psihologică, potrivire pe post, respectiv prin testul de integritate – testarea poligraf. Ați constatat că în proporție de 90 % dintre candidații pentru un post scos la concurs, nu îndeplinesc cerințele postului sau si-au înscris informații intenționat greșite în curriculum vitae?",
+    "jobs" :[
+      {"key":"immigration",
+      "title": "Servicii imigrări",
+      "description": "Obținerea dreptului de ședere cu scopul muncii în Romania - incluzând obținerea vizei de la oficiile consulare ale României din străinătate\nAvize de angajare și avize de detașare pentru străini\nAvize de angajare pentru lucrători înalt calificați\nLucrătorii înalt calificați și Cartea Albastră"
     },
-    "printDesign": {
-      "title": "Servicii de imigrari",
-      "description": "Expertiză globală, culoare Locală\nTransparență și integritate\nNe mândrim cu istoricul nostru de a ajuta clienții să își atingă obiectivele."
+    {"key":"immigrationCons",
+      "title": "Consultanta imigrări",
+      "description": "Consultantă juridică cu privire la fiscalizarea persoanelor fizice și juridice străine \nConsultanța juridică în vederea pregătirii documentelor pentru solicitările necesare tuturor categoriilor de vize: traduceri, legalizări, autentificări, apostilă Haga\nReprezentare juridică în fata autorităților române implicate în procesul imigrării în România."
     },
-    "businessAnalysis": {
-      "title": "Analiză de afaceri",
-      "description": "Analiza de date\nViziune analitică."
+    {"key":"immigrationFam",
+      "title": "Servicii imigrări pentru persoane fizice",
+      "description": "Înregistrarea rezidenței cetățenilor UE/SEE/CH\nReîntregirea familiei cetățenilor UE și non-UE\nReîntregirea familiei cetățenilor români\nDrepturile sociale ale străinilor în România"
     },
-    "webDevelopment": {
-      "title": "Dezvoltare software",
-      "description": "Solutii custom pentru piata energiei electrice\nConstruirea peisajelor digitale, pixel cu pixel,\nTransformarea conceptelor în portaluri interactive,\nModelarea sferei virtuale cu cod și creativitate."
+      {"key":"graphicsDesign",
+      "title": "Selecție și recrutare personal",
+      "description": "Una din cele mai puțin exploatate căi de creștere a productivității este îmbunătățirea performantei umane. Vă propunem „Evaluarea profesională a salariaților”! Vom testa cerințele aptitudinale, cerințele privind personalitatea, interesele ocupaționale ale angajaților dumneavoastră pentru fiecare funcție în parte.."
     },
-    "bestSecurity": {
-      "title": "Cea mai bună securitate",
-      "description": "Analize de securitate,\nSecuritatea datelor si anonimizare,\nAnalize OWASP."
+    { "key":"printDesign",
+      "title": "Examinarea Poligraf",
+      "description": "Cabinetul de psihologie judiciară (Testare poligraf - detectorul de minciuni) vine în sprijinul companiei dumneavoastră prin această metodă exclusivistă folosită de companii renumite din țară și din străinătate.."
     },
-    "webDesign": {
-      "title": "Design web",
-      "description": "Crearea de experiențe digitale,\nCea mai buna experianta de utilizator."
-    }
+    {
+    "key":"webDesign",
+      "title": "Leasing de personal",
+      "description": "Angajările sezoniere \nNecesitatea de a înlocui temporar anumiți angajați \nProiectele speciale, care se desfășoară pe o perioadă determinate de timp; \nExistenta temerii ca afacerea ar avea de suferit în sensul restrângerii activității; \nAsigurarea necesarului de angajați peste schema de personal existentă; \nEvitarea problemelor legate de administrarea de personal și responsabilitățile legale; \nAducerea de forță de muncă nouă, cu posibilitatea de a rula mai mult personal și de a-l alege pe cel mai productiv și motivat."
+    },{
+      "key": "hrAdmin",
+      "title": "Administrare personal",
+      "description": "Vom analiza, evalua, remedia, induce activitatea dumneavoastră de HR pe o platforma cu un management de calitate. \nIndiferent de numărul de angajați, veți avea dosarele perfecte, fără niciun cusur. Vom aplica proceduri de management de calitate, astfel veți avea un plus de siguranță în fața organelor de control. \nVom întocmi documentațiile necesare unei bune desfășurări a activității de HR din compania dumneavoastră. \nApostol și Asociații vă poate reprezenta în cazul controalelor Inspecției Muncii."
+    }, { "key":
+    "hrPsih",
+      "title": "Servicii psihologice",
+      "description": "APOSTOL ȘI ASOCIAȚII, oferă servicii psihologice personalizate de mare complexitate în specializările, psihologia muncii și organizațională, psihologie clinică, psihologie aplicată în domeniul securității noționale."
+    }, { "key":
+    "hrPsihWork",
+      "title": "Psihologia muncii și organizațională",
+      "description": "APOSTOL ȘI ASOCIAȚII, oferă asistență specializată în toate procesele care stau la baza funcționării sănătoase a organizației: recrutarea și selecția celor mai potriviți angajați în conformitate cu trăsăturile de personalitate și cerințele posturilor vacante, la diagnosticarea, \nîmbunătățirea și dezvoltarea proceselor, procedurilor și politicilor interne, evaluarea climatului organizațional și a performanțelor profesionale."
+    }, { "key":
+    "hrAnalysis",
+      "title": "Analiza muncii",
+      "description": "Optimizarea circuitului entry-exit al angajaților. Prin analizarea documentelor interne ale companiei dumneavoastră și conștientizarea priorităților curente, putem să implementam o serie de elemente care vor favoriza rata de retenție și motivația angajaților."
+    }, { "key":
+    "hrDiagnosis",
+      "title": "Diagnoza organizațională",
+      "description": "Diagnoza organizațională este un demers analitic în scopul identificării realității concrete a organizației în cauză, ce presupune utilizarea unor mijloace complementare de analiză și documentare. Această activitate urmează un plan de diagnosticare personalizat, iar diagnoza nu are un scop pur evaluativ, nu este un proces de evaluare, ci unul de conștientizare a elementelor profunde ce stau la baza funcționării unei organizații."
+    }, { "key":
+    "hrIntervention",
+      "title": "Intervenție și recalibrare companie",
+      "description": "În orice companie există posibilitatea de apariție a unor incidente critice care pot destabiliza armonia de la locul de muncă și deteriora legăturile și dinamica internă a colectivului de muncă. \nPrin serviciile noastre, puteți evita absenteismul, prezenteismul, fluctuația de personal, bullying-ul, mobbing-ul și burnout-ul."
+    }]
   },
   "features": {
     "title": "Viitorul începe aici",
@@ -70,76 +96,94 @@
   },
 "trustedCustomers": [
     {
-      "name": "JDS Software Services",
-      "description": "Recrutare de personal software si consultanta pentru un proiect  in parteneriat cu GE Vernova",
-      "link": "https://www.gevernova.com/",
-      "image": "/assets/companies/jds.png"
-    },
-    {
-      "name": "SIQSESS",
-      "description": "Recrutare de personal software.",
+      "name": "Mazars",
+      "description": "Multinationala ce oferă servicii integrate de audit si consultanță financiară.",
       "link": "https://www.siqsess.com/#/home",
       "image": "/assets/companies/siqces.png"
     },
     {
-      "name": "Asia Continental Group",
-      "description": "Servicii HR si consultanta business.",
-      "link": "https://acgbd.com/",
-      "image": "/assets/companies/acgbd.png"
+      "name": "Silva Termosystems",
+      "description": "Producător de sisteme uși și ferestre tip termopan, rulouri și plase insecte.",
+      "link": "https://www.facebook.com/silva.termosystems/?locale=ro_RO",
+      "image": "/assets/companies/silvats.png"
     },
     {
       "name": "EVO House",
-      "description": "Servicii HR si recrutare de personal.",
+      "description": "ONG care promovează arhitectura sustenabilă și clădirile viitorului.",
       "link": "https://evohouse.eu/",
       "image": "/assets/companies/evohouse.png"
     },
     {
-      "name": "Romstal",
-      "description": "Servicii HR si recrutare de personal.",
-      "link": "https://www.romstal.ro/",
-      "image": "/assets/companies/romastal.png"
+      "name": "Tricomexim",
+      "description": "Societate română cu o mare experienţă în producerea şi comercializarea echipamentelor individuale de protecţie.",
+      "link": "https://www.tricomexim.ro/",
+      "image": "/assets/companies/tricomexim.png"
     },
     {
-      "name": "Floraria Iris",
-      "description": "Servicii HR si recrutare de personal.",
-      "link": "https://www.florariairis.ro/",
-      "image": "/assets/companies/Floraria.png"
+      "name": "JDS Software Services",
+      "description": "Dezvoltare software pentru sitemul de futures trading in piata energetica a Europei de Nord, in parteneriat cu GE Vernova",
+      "link": "https://www.jds-europe.com/",
+      "image": "/assets/companies/jds.png"
+    },
+    {
+      "name": "SIQSESS",
+      "description": "Companie multinațională de servicii și consultanță IT specializată în IoT, ER, Digital Twin, integrare de sisteme, cloud computing, big data, AI și ML.",
+      "link": "https://www.siqsess.com/#/home",
+      "image": "/assets/companies/siqces.png"
     }
   ],
   "recentWorks": {
     "title": "Proiecte recente",
     "description": "Avand peste 20 de ani de experianta in HR si peste 16 in Consultanta IT, echipa noastra este pregatita sa va ajute sa va atingeti potentialul.",
     "works": [
-      {
-        "title": "Aplicatii Custom de la Zero",
-        "description": "Aplicatii sigure, stabile, scalabile si performante pentru piata energetica in colaborare cu parteneri de top din industrie.",
-        "imageUrl": "assets/projects/content.png"
-      },
-      {
-        "title": "Optimizare site de comerț electronic",
-        "description": "Îmbunătățirea experienței utilizatorului și a ratei de conversie,\nImplementarea designului responsiv, îmbunătățirea vitezei site-ului și simplificarea procesului de checkout,\nCresterea vânzărilor online și satisfacția clienților.",
-        "imageUrl": "assets/projects/ecommerce.png"
-      },
-      {
-        "title": "HR",
-        "description": "Va ajutam sa gasiti cei mai buni oameni.\nVa ajutam sa creeati o echipa dinamica.",
-        "imageUrl": "assets/projects/identity.png"
-      },
-      {
-        "title": "Servicii Imigrare",
-        "description": "Obtinem vizele necesare\nPermisele de munca",
-        "imageUrl": "assets/projects/social.png"
-      },
-      {
-        "title": "Analiză și vizualizare a datelor",
-        "description": "Extragerea de insights din seturi de date complexe,\nUtilizarea uneltelor precum Python, Tableau și Excel pentru analiză și vizualizare a datelor,\nImpulsionarea luării deciziilor și stimularea creșterii afacerii cu strategii bazate pe date.",
-        "imageUrl": "assets/projects/data.png"
-      },
-      {
-        "title": "Revigorarea identității de brand",
-        "description": "Reîmprospătarea elementelor de brand pentru o atracție modernă,\nRedesenarea logo-ului, rafinarea paletei de culori și identitate vizuală coezivă,\nCrescând percepția și recunoașterea brandului pe piață.",
-        "imageUrl": "assets/projects/mobile.png"
-      }
+      { "key": "businessAnalysis",
+      "imageUrl": "assets/projects/content.png",
+      "title": "Testul de Integritate",
+      "description": "Testul de integritate are ca principal scop identificarea potențialelor vulnerabilități ale unor persoane aflate în faza iminentei angajări (~80% din situații) ori în perioada imediat următoare angajării (~20% din situații). Informațiile prezentate de candidat nu reflectă întotdeauna adevărata stare de fapt. Este posibil ca noul angajat să aibă una sau mai multe vulnerabilități care pot să interfereze în sens negativ cu natura și specificul activității desfășurate. În urma unei astfel de examinări poligraf stabilim existența ori inexistența unor vulnerabilități personale și, în același timp, care este gradul de risc asumat de către societatea angajatoare."
+    },
+    { "key": "webDevelopment",
+    "imageUrl": "assets/projects/content.png",
+      "title": "Testul poligraf cu caracter preventiv",
+      "description": "Este utilizat la scară largă în diverse domenii de activitate. Examinarea are caracter repetitiv la intervale de 3, 6 ori 12 luni, iar întrebările adresate sunt construite exclusiv din sfera de activitate a angajatului. Scopul testului este să stabilească dacă persoana examinată a avut o conduită onestă la locul său de muncă în intervalul cuprins între examinarea anterioară și cea curentă. În cazul în care se identifică posibile acțiuni frauduloase, vor fi dispuse anchete administrative cu privire la persoana / zona de activitate / fapta săvârșită / prejudiciul produs."
+    },
+    { "key":" bestSecurity",
+    "imageUrl": "assets/projects/content.png",
+      "title": "Testarea poligraf cu caracter tematic",
+      "description": "Reprezintă o formă bine elaborată / structurată din punct de vedere procedural și are drept scop clarificarea potențialei implicări sau neimplicări a unei persoane într-un eveniment controversat. Totodată se stabilește forma de participație (autor, coautor, complice, instigator, tăinuitor, etc.). Tariful unei examinări este în funcție de complexitatea cauzei. Primul caz testat la poligraf este gratuit!"
+    },
+    { "key":
+    "hrEval",
+      "title": "Evaluarea psihologica în relațiile de munca",
+      "imageUrl": "assets/projects/content.png",
+      "description": "Avem încheiate parteneriate cu experți în domeniu psihologiei muncii, direct aplicate pe domenii de activitate.\nPsihologia muncii și organizațională: vizează colaborarea cu sectorul de medicina muncii în concordanță cu legea privind securitatea și protecția muncii. Metodele psihologice în acest domeniu sunt utilizate în vederea evaluării, selecției și expertizei psihologice la angajare / menținere în funcție sau în scopul avizării psihologice, pentru diagnoză și intervenție organizațională, precum și realizarea consultantei psihologice pentru managementul resurselor umane."
+    }, 
+    { "key":
+    "hrEval",
+      "title": "Psihologia transporturilor",
+      "imageUrl": "assets/projects/content.png",
+      "description":"Se adresează angajatorilor care au ca obiect de activitate transporturile sau persoanelor fizice care doresc să obțină permisul de conducere auto și presupune testare psihologică a conducătorilor auto. \nÎn cadrul psihologiei transporturilor, efectuăm și testări psihologice pentru șoferi profesioniști/funcții implicate în siguranța circulației rutiere, la școlarizare, angajare și menținere funcție."
+    }, 
+    { "key":
+    "hrEvalNatSec",
+      "title": "Psihologia aplicată în domeniul securității naționale",
+      "imageUrl": "assets/projects/content.png",
+      "description": "Se adresează în special angajatorilor care au personal care necesita aviz de port armă, firmelor de pază și protecție sau persoanelor fizice ce doresc să obțină permisul port armă și presupune test psihologic port armă. \nExistenta temerii ca afacerea ar avea de suferit în sensul restrângerii activității; \nPsihoterapie cognitiv comportamentala: pentru situații de criză existențială, depresie, anxietate, fobii, atacuri de panică; adicții, tulburări de alimentație; evaluare/testare psihologică . \nRezultatele testelor sunt confidențiale."
+    },{ "key":
+    "hrPermits",
+      "title": "Consultații și avize",
+      "imageUrl": "assets/projects/content.png",
+      "description": "Aviz psihologic angajare \nAviz psihologic angajare funcții de decizie / conducere \nEvaluare periodică \nEvaluare psihologică complexă și de integritate pentru ocuparea funcțiilor publice în structurile antifraudă \nAviz psihologic susținere concurs INM (magistrat, procuror, judecător) \nAviz psihologic susținere concurs – mediator, notar stagiar, funcționar public \nAviz (fișă psihologică) concurs angajare \nAviz psihologic concurs inspector integritate (A.N.I.), inspector vamal \nExamen psihologic asistent farmacie \nTest psihologic pentru cetățeni români care urmează să își desfășoare activitatea profesională în străinătate \nAviz psihologic autorizare electrician \nAviz psihologic curs stivuitorist \nAviz psihologic permis de conducere auto categoria A,B,C,CE,D \nAviz psihologic șofer transport intern marfă, persoane, taxi, instructor, transport ADR \nAviz psihologic permis port-armă \nAviz psihologic atestare agent pază \nAviz psihologic angajare Poliția Locală \nConsiliere psihologică."
+    }, { "key":
+    "hrForeign",
+      "title": "Servicii pentru cetățeni străini",
+      "imageUrl": "assets/projects/content.png",
+      "description": "Consultanță și asistență pentru obținerea tuturor tipurilor de permise de ședere; \nInvitații de scurtă ședere în scop de: vizită, afaceri, turism; \nObținere și prelungire domiciliu stabil in România; \nPrelungire permise de ședere în scop de muncă, studii, reîntregirea familiei, afaceri, voluntariat, administrator, alte scopuri;"
+    }, { "key":
+    "hrCommunication",
+      "title": "Comunicare intra și interdepartamentală",
+      "imageUrl": "assets/projects/content.png",
+      "description": "Comunicarea inter și intra-departamente reprezintă un element esențial în cadrul oricărei companii, iar prin fluidizarea și eficientizarea acesteia se poate asigura progresul armonios al oricărei firme. Vom adapta procedurile de comunicare interne și externe în funcție de schimbările produse la nivelul organizației și vor implementa noi tehnici eficiente în întreaga companie."
+    }
     ]
   },
   "testimonial": {
@@ -192,7 +236,11 @@
   },
   "contact": {
     "title": "Contactati-ne!",
-    "subtitle": "Suntem aici pentru a ajuta și pentru a răspunde la orice întrebare pe care o aveți.",
+    "subtitle": "Folositi codurile QR pentru a partaja cu noi documentele dumneavoastra",
+    "employer": "Companie: ",
+    "employee": "Angajat: ",
+    "employerDesc": "Urcati fisierele angajatorului.",
+    "employeeDesc": "Urcati fisierele angajatului.",
     "placeholders": {
       "name": "Nume",
       "email": "Email",

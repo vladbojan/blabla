@@ -31,8 +31,8 @@ const Team = () => {
     const teamMembers = [
         {
             name: 'Mariana Manole',
-            position: 'Senior Quality Assurance',
-            image: '/assets/team/user.png',
+            position: 'CEO',
+            image: '/assets/team/mariana.jpg',
             description: 'With a deep-rooted passion for organizational development and a people-centered approach, I am committed to fostering an inclusive and dynamic work environment. My experience in human resources has equipped me with the skills necessary to efficiently manage recruitment, training, and development processes, thereby contributing to the growth and success of APOSTOL si ASOCIATII. I am driven by the challenge of building strong teams that share the values and objectives of our company.',
             destinations: ['Talent Management: Extensive experience in identifying, attracting, and retaining top talent, ensuring our team is comprised of the best and brightest professionals.', 
             'Development and Training: Implemented development and training programs that encourage professional and personal growth among employees.', 

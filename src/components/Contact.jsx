@@ -21,43 +21,50 @@ const Contact = () => {
                         </div>
                         <div className="md:flex justify-between lg:space-x-8">
                             <div className="md:w-2/3 lg:w-3/4">
-                                <form className="space-y-4">
-                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                                        <div className="relative">
-                                            <input type="text" id="name" name="name" className="form-input shadow-sm pl-10 pr-4 py-3 w-full border rounded-lg" placeholder={translations.contact.placeholders.name} />
-                                            <i className="lni lni-user absolute top-1/2 transform -translate-y-1/2 left-3 text-gray-400"></i>
+                                
+                                    
+                                    
+                                    <div className="text-center mb-12">
+                                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                            <div className="text-right">
+                                                <p className="text-gray-600">{translations.contact.employer}</p>
+                                                <p className="text-gray-600">{translations.contact.employerDesc}</p>
+                                            </div>
+                                            <div className="relative mb-12" data-aos="fade-right"
+                                                data-aos-offset="210"
+                                                data-aos-easing="ease-in-out"
+                                                style={{
+                                                    justifySelf: 'center'
+                                                }}
+                                                >
+                                                <img
+                                                    src="/assets/qr-code-formular_angajator.png"
+                                                    alt="scan"
+                                                />
+                                            </div>
+                                            <div className="text-right">
+                                                <p className="text-gray-600">{translations.contact.employee}</p>
+                                                <p className="text-gray-600">{translations.contact.employeeDesc}</p>
+                                            </div>
+                                            <div className="relative" data-aos="fade-right"
+                                                data-aos-offset="210"
+                                                data-aos-easing="ease-in-out"
+                                                style={{
+                                                    justifySelf: 'center'
+                                                }}
+                                                >
+                                                <img
+                                                    src="/assets/qr-code-formular_angajat.png"
+                                                    alt="scan"
+                                                />
+                                            </div>
                                         </div>
-                                        <div className="relative" data-aos="fade-right"
-                                             data-aos-offset="210"
-                                             data-aos-easing="ease-in-out">
-                                            <input type="email" id="email" name="email" className="form-input shadow-sm pl-10 pr-4 py-3 w-full border rounded-lg" placeholder={translations.contact.placeholders.email} />
-                                            <i className="lni lni-envelope absolute top-1/2 transform -translate-y-1/2 left-3 text-gray-400"></i>
-                                        </div>
-                                        <div className="relative"
-                                             data-aos="fade-right"
-                                             data-aos-offset="220"
-                                             data-aos-easing="ease-in-out">
-                                            <input type="text" id="number" name="number" className="form-input shadow-sm pl-10 pr-4 py-3 w-full border rounded-lg" placeholder={translations.contact.placeholders.number} />
-                                            <i className="lni lni-phone absolute top-1/2 transform -translate-y-1/2 left-3 text-gray-400"></i>
-                                        </div>
-                                        <div className="relative"
-                                             data-aos="fade-right"
-                                             data-aos-offset="230"
-                                             data-aos-easing="ease-in-out">
-                                            <input type="text" id="subject" name="subject" className="form-input shadow-sm pl-10 pr-4 py-3 w-full border rounded-lg" placeholder={translations.contact.placeholders.subject} />
-                                            <i className="lni lni-text-format absolute top-1/2 transform -translate-y-1/2 left-3 text-gray-400"></i>
-                                        </div>
-                                    </div>
-                                    <textarea name="message" id="message" className="form-input pl-10 pr-4 py-3 shadow-sm w-full border rounded-lg" placeholder={translations.contact.placeholders.message} rows="6"
-                                              data-aos="fade-right"
-                                              data-aos-offset="200"
-                                              data-aos-easing="ease-in-out"></textarea>
-                                    <button type="submit" className="button py-3 px-6 bg-[#f3f4f6] text-gray-900 shadow-md rounded-lg hover:bg-[#007cff] hover:text-white"
-                                            data-aos="fade-right"
-                                            data-aos-offset="250"
-                                            data-aos-easing="ease-in-out"><i className="lni lni-telegram-original"></i> {translations.contact.submitButtonText}</button>
-                                </form>
+                                    
+                                </div>
                             </div>
+
+                            
+
                             <div className="mt-8 md:mt-0 md:w-1/3 lg:w-1/4">
                                 <div className=" flex flex-col px-4  space-y-8">
                                     <div className="flex items-center shadow-md rounded-md bg-gray-100 hover:bg-blue-500 hover:text-white hover:bg-blue-500 hover:text-white py-5"

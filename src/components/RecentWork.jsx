@@ -44,7 +44,7 @@ const RecentWork = () => {
                                     <h3 className="text-2xl font-semibold text-center text-gray-800 dark:text-white">
                                         {work.title}
                                     </h3>
-                                    <p className="mt-6 mb-8 px-4 text-justify text-gray-600 dark:text-gray-300">
+                                    <p className="mt-6 mb-8 px-4 text-justify text-gray-600 dark:text-gray-300" style={{whiteSpace: "pre-wrap"}}>
                                         {work.description}
                                     </p>
                                 </div>

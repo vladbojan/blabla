@@ -9,7 +9,7 @@ import { useLanguage } from '../../context/LanguageContext';
 
 
 const VideoModal = ({isOpen, onClose}) => {
-    const videoId = 'pWOv9xcoMeY?si=jigNnHAd0jAIc4-t';
+    const videoId = 'AbzqVVYaDaI';
 
     return (
         <Modal
@@ -122,16 +122,16 @@ const Hero = () => {
                     </div>
 
                     <div className="mt-16 flex gap-6 lg:gap-12 justify-between items-center ">
-                        <Link href="https://www.florariairis.ro/" target="_blank">
+                        <Link href="https://www.mazars.ro/" target="_blank">
                                 <img
-                                    src="/assets/companies/Floraria.png"
-                                    className="h-14 sm:h-12 w-auto lg:h-10 cursor-pointer"
+                                    src="/assets/companies/mazars.png"
+                                    className="h-14 sm:h-8 w-auto lg:h-4 cursor-pointer"
                                     alt=""
                                 />
                         </Link>
-                        <Link href="https://www.romstal.ro/" target="_blank">
+                        <Link href="https://www.tricomexim.ro/" target="_blank">
                         <img
-                            src="/assets/companies/romstal.png"
+                            src="/assets/companies/tricomexim.png"
                             className="h-8 sm:h-10 w-auto lg:h-6 cursor-pointer"
                             alt=""
                         />
@@ -143,13 +143,11 @@ const Hero = () => {
                             alt=""
                         />
                         </Link>
-                        <Link href="https://acgbd.com/" target="_blank">
                         <img
-                            src="/assets/companies/acgbd.png"
+                            src="/assets/companies/silvats.png"
                             className="h-8 sm:h-10 w-auto lg:h-6 cursor-pointer"
                             alt=""
                         />
-                        </Link>
                     </div>
                 </div>
                 <div className="overflow-hidden w-full lg:w-7/12 lg:-mr-16"
